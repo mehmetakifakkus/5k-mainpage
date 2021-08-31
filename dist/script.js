@@ -83,9 +83,9 @@ var tl2 = new TimelineMax();
   
  var clearScreen1 = new TimelineMax({onStart: myFunction});
   clearScreen1.to('.scene1', 0.5, {x: '110%', ease: Linear.easeInOut})
-  .fromTo('#js-scrollmagic--product-1', 0.5, {x: '20%', y: '150%'}, {x: '20%', y: '-10%', scale: 0.7}, "=-0.5")
-  .fromTo('#js-scrollmagic--product-2', 0.5, {x: '80%', y: '150%'}, {x: '80%', y: '-10%', scale: 0.7}, "=-0.5")
-  .fromTo('#js-scrollmagic--product-3', 0.5, {x: '160%', y: '150%'}, {x: '160%', y: '-10%', scale: 0.7}, "=-0.5");
+  .fromTo('#js-scrollmagic--product-1', 0.5, {x: '20%', y: '150%'}, {x: '60%', y: '0%'}, "=-0.5")
+  .fromTo('#js-scrollmagic--product-2', 0.5, {x: '80%', y: '150%'}, {x: '180%', y: '0%'}, "=-0.5")
+  .fromTo('#js-scrollmagic--product-3', 0.5, {x: '160%', y: '150%'}, {x: '300%', y: '0%'}, "=-0.5");
   
    new ScrollMagic.Scene({triggerElement: '#anim3', triggerHook: hook})
       .addIndicators({name:'ürünler1'}) // add indicators (requires plugin)
