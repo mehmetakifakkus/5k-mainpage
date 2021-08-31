@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple CSS Image Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./css/gallery.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">LamiArt</h1>
+
+<div class="container">
+<div class="gallery cf">
+  <div>
+    <a href="https://ibb.co/nCp3xjM">
+    <img src="https://i.ibb.co/hgDFrxn/Component-39-11.png" />
+    <p>Merhabalar</p>
+    </a>
+  </div>
+  <div> 
+    <a href="https://ibb.co/nCp3xjM">
+    <img src="https://i.ibb.co/3T2GsWr/Component-39-12.png" />
+    <p>Hasan</p>
+    </a>
+  </div>
+  <div>
+    <a href="https://ibb.co/nCp3xjM">
+    <img src="https://i.ibb.co/Tgw4qDS/Component-39-13.png" />
+    <p>Hocam</p>
+    </a>
+  </div>
+  
+  <div>
+    <a href="https://ibb.co/7zr9y11"><img src="https://i.ibb.co/CtVr0HH/Component-39-14.png" alt="Component-39-14" border="0">
+    <p>Nasılsın?</p> 
+    </a>
+  </div>
+  <div>
+<a href="https://ibb.co/nCp3xjM"><img src="https://i.ibb.co/sH758q9/Component-39-15.png" alt="Component-39-15" border="0">
+  <p>bende</p>
+</a>
+    </div>
+  <div>
+<a href="https://ibb.co/B46pMWm"><img src="https://i.ibb.co/YDdCsn6/Component-39-16.png" alt="Component-39-16" border="0">
+  <p>iyiyim</p>
+</a>
+    </div>
+  <div>
+<a href="https://ibb.co/QHxWM25"><img src="https://i.ibb.co/7p03Kw9/Component-39-17.png" alt="Component-39-17" border="0">
+  <p>valla</p>
+</a>
+    </div>
+  <div>
+<a href="https://ibb.co/z4TgLdc"><img src="https://i.ibb.co/CH3yXLd/Component-39-18.png" alt="Component-39-18" border="0">
+  <p>nolsun</p>
+</a>
+    
+  </div>
+
+</div>
+<!-- partial -->
+
+  <label for="" onclick="redirectMainPage()">Anasayfaya dön</label>
+
+</div>
+
+
+</body>
+
+<script>
+
+  const url2obj = (name)=> {
+      var list = name.slice(1).split("&").map((it)=>{
+        var temp = it.split("=")
+        return {[temp[0]]: temp[1]}
+      });
+
+      return Object.assign.apply(null, list);
+  }
+
+  const fetchTitle = ()=>{
+    const name = window.location.search;
+
+    const objList = url2obj(name);
+    document.querySelector('#title').textContent = objList.type;
+    
+  }
+
+  const redirectMainPage = (page)=>{
+    const objList = url2obj(window.location.search);
+    window.location = "index.html?page=" + objList.page;
+  }
+
+  fetchTitle();
+</script>
+</html>

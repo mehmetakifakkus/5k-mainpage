@@ -99,18 +99,20 @@ body {
 
 h1.category{
   font-family: "Century Gothic"; 
-  /* margin: auto; */
   margin-top: 5px;
-  /* width: 70%; */
   font-size: 50px;
   letter-spacing: -1px;
   word-spacing: 2px;
-  color: #000000;
+  color: white;
   font-weight: 600;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
+  cursor: pointer;
+  text-shadow: 
+  1px 1px 4px rgba(0.5,0.5,0.5, 0.6),
+  0px 0px 10px rgba(0.5,0.5,0.5, 0.5);
 }
 
 a {
