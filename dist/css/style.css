@@ -1,0 +1,131 @@
+@import url(//db.onlinewebfonts.com/c/0d78b12d6be09203d1fbeb76871a369a?family=Century+Gothic);
+
+.image {
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.product-image {
+  width: 30vw;
+  /*   background-position: center;  */
+  /*   background-size: cover; */
+}
+.zone-80 {
+  position: absolute;
+  width: 100%;
+  min-height: 120%;
+}
+#holder {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.scene1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.scene2 {
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+.scene3 {
+  position: fixed;
+  top: 0px;
+}
+.scene4 {
+  position: fixed;
+  top: 0;
+}
+.fixToTop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+#markers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 200%;
+}
+.marker {
+  width: 10px;
+  min-height: 380px;
+  background: #330000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  z-index: 9999;
+}
+.size0 {
+  width: 10px;
+  min-height: 300px;
+  border-width: 3px;
+  z-index: 9999;
+}
+.size1 {
+  width: 10px;
+  min-height: 800px;
+  border-width: 3px;
+  z-index: 9999;
+}
+.size2 {
+  width: 10px;
+  min-height: 1200px;
+  border-width: 3px;
+  z-index: 9999;
+}
+.size2 {
+  width: 10px;
+  min-height: 1600px;
+  border-width: 3px;
+  z-index: 9999;
+}
+div.centered {
+  position: relative;
+  margin: auto;
+  left: 25vw;
+  width: 50vw;
+}
+body {
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+h1.category{
+  font-family: "Century Gothic"; 
+  margin: auto;
+  margin-top: 0px;
+  width: 70%;
+  font-size: 50px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e3e3e3;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: tomato;
+}
+
+#welcomeDiv {
+  width: 100%;
+}
+
+iframe{
+  min-height: 600px;
+  min-width: 500px;
+  transform-origin: 0% 0%; 
+  transform: scale(1.4);
+}

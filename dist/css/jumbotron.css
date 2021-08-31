@@ -1,0 +1,36 @@
+
+.jumbotron {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 99999;
+    margin: auto;
+    width: 50%;
+    /*   border: 5px solid; */
+    border-radius: 5px;
+    background: rgba(20, 20, 20, 0.8);
+    /*   opacity: 0.27; */
+    padding: 6% 10%;
+    /*   min-height: 400px; */
+    text-align: center;
+    vertical-align: middle;
+  }
+ 
+  .sloganTitle {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #111111;
+  }
+
+  .sloganText {
+    line-height: 50px;
+    margin-top: 46px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #111111;
+  }
+ 
