@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>KeyShotXR</title>
     <style type="text/css">
-      body { -ms-touch-action: none; }
+      body { -ms-touch-action: none; 
+      background-color: rgb(193, 42, 42);}
     </style>
     <script type="text/javascript" src="LAMIFLOOR/files/KeyShotXR.js"></script>
     <script type="text/javascript">
@@ -22,14 +23,14 @@
         var folderName = "LAMIFLOOR";
         var viewPortWidth = 300;
         var viewPortHeight = 540;
-        var backgroundColor = "rgba(255, 255, 0, 0)";
-        var uCount = 30;
+        var backgroundColor = "rgba(255, 255, 255, 0)";
+        var uCount = 36;
         var vCount = 1;
         var uWrap = true;
         var vWrap = false;
-        var uMouseSensitivity = -0.0833333;
+        var uMouseSensitivity = -0.1;
         var vMouseSensitivity = 0.00625;
-        var uStartIndex = 15;
+        var uStartIndex = 18;
         var vStartIndex = 0;
         var minZoom = 1;
         var maxZoom = 1;
@@ -39,9 +40,9 @@
         var downloadOnInteraction = false;
         var imageExtension = "png";
         var showLoading = true;
-        var loadingIcon = "Logo_5K Siyah_Şeffaf.png"; // Set to empty string for default icon.
+        var loadingIcon = "ks_logo.png"; // Set to empty string for default icon.
         var allowFullscreen = false; // Double-click in desktop browsers for fullscreen.
-        var uReverse = true;
+        var uReverse = false;
         var vReverse = false;
         var hotspots = {};
         var isIBooksWidget = false;

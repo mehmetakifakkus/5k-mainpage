@@ -1,0 +1,50 @@
+@import url(//db.onlinewebfonts.com/c/0d78b12d6be09203d1fbeb76871a369a?family=Century+Gothic);
+
+body{
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 4vw;
+}
+
+.feature{
+    display: flex;
+    margin: 0px 1vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature:hover > label{
+    display:grid;
+}
+
+.feature > label{
+    margin-top: 20px;
+    margin-left: -5vw;
+    margin-right: -4vw;
+
+    font-size: 2vw;
+    color: rgb(43, 43, 43);
+    display: none;
+    /* word-wrap: break-word; */
+}
+
+/* change normal rgb color to svg filter */
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+.svg_image{
+    width: 10vw;
+    color: #a7b2ba;
+    transition: ease .15s;
+    filter: invert(75%) sepia(18%) saturate(153%) hue-rotate(163deg) brightness(92%) contrast(90%);
+  }
+  
+.svg_image:hover {
+    transform: scale(1.15);
+    transition: ease .15s;
+    filter: invert(54%) sepia(17%) saturate(1117%) hue-rotate(350deg) brightness(91%) contrast(89%);
+}

@@ -5,6 +5,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .product-image {
   width: 30vw;
   /*   background-position: center;  */
@@ -25,25 +26,39 @@
   top: 0px;
   left: 0px;
 }
-.scene2 {
+
+.myContainer {
+  perspective: 60px;
+  perspective-origin: left;
+}
+
+.flip-panel {
   position: fixed;
+  width: 100vw;
+  height: 90vh;
   top: 0px;
-  z-index: 100;
+  left: 0px;
+  /* z-index: 5; */
+}
+
+.product {
+  /* position: fixed; */
+  position: absolute;
+  top: 0px;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform-box: view-box;
+  width: 23vw;
+  /* perspective: 120px;
+  perspective-origin: left;  */
 }
-.scene3 {
-  position: fixed;
-  top: 0px;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.scene4 {
+
+.scene_mutfak {
   position: fixed;
   top: 0;
+  z-index: 9;
 }
 .fixToTop {
   position: fixed;
@@ -90,33 +105,40 @@
   border-width: 3px;
   z-index: 9999;
 }
+
 div.centered {
   position: relative;
   margin: auto;
   left: 25vw;
   width: 50vw;
 }
+
 body {
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
-h1.category{
-  font-family: "Century Gothic"; 
+h1.category {
+  font-family: "Century Gothic";
   margin-top: 5px;
   font-size: 50px;
   letter-spacing: -1px;
   word-spacing: 2px;
-  color: white;
+  color: rgb(114, 114, 114);
   font-weight: 600;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
   cursor: pointer;
-  text-shadow: 
-  1px 1px 4px rgba(0.5,0.5,0.5, 0.6),
-  0px 0px 10px rgba(0.5,0.5,0.5, 0.5);
+  text-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.6),
+    1px -1px 1px rgba(0.5, 0.5, 0.5, 0.6), -1px 1px 1px rgba(0.5, 0.5, 0.5, 0.6),
+    -1px -1px 1px rgba(0.5, 0.5, 0.5, 0.6);
+  /* 0px 0px 10px rgba(0.5,0.5,0.5, 0.5); */
+}
+
+h1.category:hover {
+  color: rgb(223, 223, 223);
 }
 
 a {
@@ -132,9 +154,16 @@ a:hover {
   width: 100%;
 }
 
-iframe{
+.product iframe {
   min-height: 540px;
   min-width: 300px;
-  transform-origin: 0% 0%; 
-  /* transform: scale(1.4); */
+  transform-origin: 0% 0%;
+}
+
+.product iframe:hover + h1.category {
+  color: rgb(223, 223, 223);
+}
+
+.bringToFront {
+  z-index: 99999;
 }
