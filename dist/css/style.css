@@ -11,6 +11,15 @@
   /*   background-position: center;  */
   /*   background-size: cover; */
 }
+
+.bg-image {
+  width: 100vw;
+}
+
+aaa {
+  background-color: #330000;
+}
+
 .zone-80 {
   position: absolute;
   width: 100%;
@@ -107,7 +116,6 @@
 }
 
 div.centered {
-  position: relative;
   margin: auto;
   left: 25vw;
   width: 50vw;
@@ -118,10 +126,14 @@ body {
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
+h1 {
+  color: rgb(46, 46, 46);
+}
+
 h1.category {
   font-family: "Century Gothic";
-  margin-top: 5px;
-  font-size: 50px;
+  margin-top: 20px;
+  font-size: 44px;
   letter-spacing: -1px;
   word-spacing: 2px;
   color: rgb(114, 114, 114);
@@ -131,9 +143,9 @@ h1.category {
   font-variant: normal;
   text-transform: none;
   cursor: pointer;
-  text-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.6),
+  /* text-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.6),
     1px -1px 1px rgba(0.5, 0.5, 0.5, 0.6), -1px 1px 1px rgba(0.5, 0.5, 0.5, 0.6),
-    -1px -1px 1px rgba(0.5, 0.5, 0.5, 0.6);
+    -1px -1px 1px rgba(0.5, 0.5, 0.5, 0.6); */
   /* 0px 0px 10px rgba(0.5,0.5,0.5, 0.5); */
 }
 

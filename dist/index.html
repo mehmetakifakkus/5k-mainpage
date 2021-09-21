@@ -68,7 +68,7 @@
 <!-- <div id="KeyShotXR"></div>  -->
 
 <div id = "welcomeDiv">
-  <div  class = "fixToTop" id="welcome" style="z-index:10"
+  <div  class = "fixToTop" id="welcome" style="z-index:3"
        style="visibility: inherit;">
     <video autoplay loop playsinline width="100%">
       <source src="https://www.lucidmotors.com/static/e4b786f3232a4ec91c3148153386bddf/homepage-hero-bg.mp4">
@@ -91,19 +91,18 @@
   
     
   
-<div class="scene1" id="bed-background-1" style="z-index:1">
+<div class="scene1" id="bed-wall-1" style="z-index:1">
      <img class="image" src='./assets/bed_wall1.jpeg'>
  </div> 
   
-<div class="scene1" id="bed-background-2" style="z-index:1">
+<div class="scene1" id="bed-wall-2" style="z-index:1">
      <img class="image" src='./assets/bed_wall2.jpeg'>
 </div>
 
-<img class="image fixToTop" id="flip-panel-backgound" src='./assets/lamiseries__background.png'>
+<img class="image fixToTop" id="flip-panel-backgound" src='./assets/lamiseries__background.png' style="z-index: 0;">
 
 <div class="flip-panel" id="product-group-1">
  <div class="product" id="product-1">
-    <!-- <img class = "product-image" src='https://i.im.ge/2021/08/02/LNmYM.png'> -->
     <iframe src="./flip_panel/LAMIPAN/lamipan.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiPan', 'productPage1')">LamiPan</h1>
   </div>
@@ -150,37 +149,31 @@
   </div>
 </div>
 
-  <!-- <div class="scene_mutfak" id="mutfak-background">
-    <img class="image" src="assets/mutfak_background.png" >
-  </div> -->
+<div id="presentation-group" class="fixToTop">
+  <div class = "bg-image" id="presentation_background">
+    <img src='./assets/rdp_fishscale_background.png'>
+  </div>
 
-  <div class="scene_mutfak" id = "seramik-1" style="z-index:0;">
-     <img class = "image" src='assets/seramik/seramik1.png'>
+  <div id="presentation-content" class="centered fixToTop" style="text-align:center;  z-index: 5;">
+    <h1 style="font-size:4vw;"> Mutfaktan yatak odasına, farklı mekanları dekorlarımızla yeniden hayal edin! </h1> 
+  </div>
+</div>
+
+<div id="mutfak-group" class="fixToTop">
+  <div id = "seramik-1" class="fixToTop" style="z-index:0;">
+     <img class = "image" src='assets/mutfak_wall1.png'>
  </div>   
   
-  <div class="scene_mutfak" id="seramik-2" style="z-index:0">
-     <img class = "image" src='assets/seramik/seramik2.png'>
+  <div id = "seramik-2" class="fixToTop" style="z-index:0">
+     <img class = "image" src='assets/mutfak_wall2.png'>
  </div> 
-
- <div class="scene_mutfak" id="seramik-3" style="z-index:0">
-  <img class = "image" src='assets/seramik/seramik3.png'>
-</div> 
-     
-  <!-- <div class="scene_mutfak" style="z-index:0"> 
-  <div id="content" class="centered" style="text-align:center">
-     <h1 style="font-size:4vw;">  Mutfaktan yatak odasına, farklı mekanları dekorlarımızla  yeniden hayal edin!   </h1> 
-   </div>
-   <div id="content" class="centered" style="text-align:center">
-    <h1 style="font-size:4vw;">  Mutfaktan yatak odasına, farklı mekanları dekorlarımızla  yeniden hayal edin!   </h1> 
+  <div class="" id="mutfak-background" style="z-index:3">
+    <img class="image" src="assets/mutfak_background.png" >
   </div>
- </div>  -->
- 
+</div> 
 
-<div class="scene4" id="features">
-  <iframe src="./features.html" frameborder="0" scrolling="no" 
-    style="min-width: 95vw; min-height: 300px;"> 
-  </iframe>
 
+<div id="features-footer" class="fixToTop" >
   <iframe src="./tasarla.html" frameborder="0" scrolling="no" 
     style="min-width: 95vw; min-height: 700px;"> 
   </iframe>
@@ -206,12 +199,12 @@
 	<div id="productPage1" class="marker size1"></div>
 	<div id="productPage2" class="marker size1"></div>
 	<div id="productPage3" class="marker size1"></div>
+	<div id="presentation-mark" class="marker size1"></div>
 	<div id="mutfak" class="marker size1" ></div>
 	<div id="anim5" class="marker size1"></div>
-	<div id="anim6" class="marker size1"></div>
-	<div id="anim7" class="marker"></div>
-	<div id="anim8" class="marker"></div>
-	<div id="anim9" class="marker"></div>
+	<div id="features-footer-mark" class="marker size1"></div>
+	<div id="end-dummy-filler" class="marker"></div>
+
 </div>
 
 
