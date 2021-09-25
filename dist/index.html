@@ -53,14 +53,12 @@
     -->
     <ul id="menu" style="background: #000000;" class="lightt" >
       <a id = "wel"><li>Başlangıç</li></a>
-      <a id = "yatak"><li>Yatak Odası</li></a>
-      <a id = "panel"><li>Yüzey Paneli Tasarımları</li></a>
-      <a id = "panel2" href="#"><li>Farklı Yüzeyler</li></a>
+      <a id = "yatak"><li>Ürünler</li></a>
+      <a id = "panel"><li>Yüzey Panelleri</li></a>
       <hr> </hr>
-      <a href="#"><li>Simulatör</li></a> 
-      <a href="#"><li>Hakkımızda</li></a> 
+      <a href="#"><li>Simulatör</li></a>
+      <a href="#"><li>Hakkımızda</li></a>
       <a href="#"><li>İletişim</li></a>
-      <a href="https://www.5k.com.tr/" target="_blank"><li>Dahası...</li></a>
     </ul>
   </div> 
 </nav>
@@ -70,8 +68,9 @@
 <div id = "welcomeDiv">
   <div  class = "fixToTop" id="welcome" style="z-index:3"
        style="visibility: inherit;">
-    <video autoplay loop playsinline width="100%">
-      <source src="https://www.lucidmotors.com/static/e4b786f3232a4ec91c3148153386bddf/homepage-hero-bg.mp4">
+    <video id="video" playsinline muted autoplay loop playsinline width="100%">
+      <!-- <source src="https://www.lucidmotors.com/static/e4b786f3232a4ec91c3148153386bddf/homepage-hero-bg.mp4"> -->
+      <source src="./assets/5K INTRO.mp4">
     </video>
     
     <div id="jumbotron" class="jumbotron">
@@ -86,96 +85,99 @@
 <div>
   <div class="scene1 fixToTop" style="z-index:2">
   <img id="bed-background" class="image"                          
-       src="./assets/yatak_odasi_backgorund.png" > 
+       src="./assets/yatak_odasi_background.png" > 
   </div>
   
     
   
 <div class="scene1" id="bed-wall-1" style="z-index:1">
-     <img class="image" src='./assets/bed_wall1.jpeg'>
+     <img class="image" src='./assets/bed_wall1.jpg'>
  </div> 
   
 <div class="scene1" id="bed-wall-2" style="z-index:1">
-     <img class="image" src='./assets/bed_wall2.jpeg'>
+     <img class="image" src='./assets/bed_wall2.jpg'>
 </div>
 
-<img class="image fixToTop" id="flip-panel-backgound" src='./assets/lamiseries__background.png' style="z-index: 0;">
+<img class="image fixToTop" id="flip-panel-background" src='./assets/lamiseries__background.png' style="z-index: 0;">
 
-<div class="flip-panel" id="product-group-1">
+<div class="flip-panel" id="product-group-1" style="z-index: 2;">
  <div class="product" id="product-1">
-    <iframe src="./flip_panel/LAMIPAN/lamipan.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMIPAN/LAMIPAN.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiPan', 'productPage1')">LamiPan</h1>
   </div>
 
   <div class="product" id="product-2">
-    <iframe src="./flip_panel/LAMIART/lamiart.html" frameborder="0" scrolling="no"> </iframe>
+    <iframe src="./flip_panel/LAMIART/LAMIART.html" frameborder="0" scrolling="no"> </iframe>
     <h1 class="category" onclick="redirect('LamiArt', 'productPage1')">LamiArt</h1>    
   </div>
 
   <div class="product" id="product-3">
-    <iframe src="./flip_panel/LAMIWOOD/lamiwood.html" frameborder="0" scrolling="no"> </iframe>
+    <iframe src="./flip_panel/LAMIWOOD/LAMIWOOD.html" frameborder="0" scrolling="no"> </iframe>
     <h1 class="category" onclick="redirect('LamiWood', 'productPage1')">LamiWood</h1>
   </div> 
 </div>
 
-<div class="flip-panel" id="product-group-2">
+<div class="flip-panel" id="product-group-2" style="z-index: 2;">
   <div class="product" id="product-4">
     <!-- <img class = "product-image" src='https://i.im.ge/2021/08/02/L3oNy.png'> -->
-    <iframe src="./flip_panel/LAMISTONE/lamistone.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMISTONE/LAMISTONE.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiStone', 'productPage2')">LamiStone</h1>
   </div>
 
   <div class="product" id="product-5">
-    <iframe src="./flip_panel/LAMIFLOOR/lamifloor.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMIFLOOR/LAMIFLOOR.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiFloor', 'productPage2')">LamiFloor</h1>
   </div>
   
   <div class="product" id="product-6">
-    <iframe src="./flip_panel/LAMIFEEL/lamifeel.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMIFEEL/LAMIFEEL.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiFeel', 'productPage2')">LamiFeel</h1>
   </div>
 </div>
 
-<div class="flip-panel" id="product-group-3">
+<div class="flip-panel" id="product-group-3" style="z-index: 2;">
   <div class="product" id="product-7">
     <!-- <img class = "product-image" src='https://i.im.ge/2021/08/02/L3oNy.png'> -->
-    <iframe src="./flip_panel/LAMIDESK/lamidesk.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMIDESK/LAMIDESK.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiDesk', 'productPage3')">LamiDesk</h1>
   </div>
 
   <div class="product" id="product-8">
-    <iframe src="./flip_panel/LAMIDOOR/lamidoor.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./flip_panel/LAMIDOOR/LAMIDOOR.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirect('LamiDoor', 'productPage3')">LamiDoor</h1>
   </div>
 </div>
 
-<div id="presentation-group" class="fixToTop">
-  <div class = "bg-image" id="presentation_background">
-    <img src='./assets/rdp_fishscale_background.png'>
-  </div>
+<!-- <div id="presentation-group" class="fixToTop">
+  
 
-  <div id="presentation-content" class="centered fixToTop" style="text-align:center;  z-index: 5;">
-    <h1 style="font-size:4vw;"> Mutfaktan yatak odasına, farklı mekanları dekorlarımızla yeniden hayal edin! </h1> 
-  </div>
+</div> -->
+
+<div id="presentation-content" class="fixToTop centered" style="text-align:center;  z-index: 1;">
+  <h1 class = "content"> Mutfaktan yatak odasına, farklı mekanları dekorlarımızla yeniden hayal edin! </h1> 
 </div>
 
+<div id="presentation-background" class="fixToTop bg-image">
+  <img src='./assets/rdp_fishscale_background.jpg' style="width: 100%;">
+</div>
+
+
 <div id="mutfak-group" class="fixToTop">
-  <div id = "seramik-1" class="fixToTop" style="z-index:0;">
-     <img class = "image" src='assets/mutfak_wall1.png'>
+  <div id = "seramik-1" class="fixToTop" style="z-index:-1;">
+     <img class = "" src='assets/mutfak_wall1.jpg'>
  </div>   
   
-  <div id = "seramik-2" class="fixToTop" style="z-index:0">
-     <img class = "image" src='assets/mutfak_wall2.png'>
+  <div id = "seramik-2" class="fixToTop" style="z-index:-1">
+     <img class = "" src='assets/mutfak_wall2.jpg'>
  </div> 
-  <div class="" id="mutfak-background" style="z-index:3">
+  <div id="mutfak-background" class="" style="z-index:2">
     <img class="image" src="assets/mutfak_background.png" >
   </div>
 </div> 
 
 
 <div id="features-footer" class="fixToTop" >
-  <iframe src="./tasarla.html" frameborder="0" scrolling="no" 
-    style="min-width: 95vw; min-height: 700px;"> 
+  <iframe src="./tasarla.html" frameborder="0" scrolling="no"> 
   </iframe>
 
   <iframe src="./footer/index.html" frameborder="0" scrolling="no" 
@@ -194,15 +196,17 @@
   
   <div id="markers">
   <div id="anim-dummy" class="marker size0"></div>
-	<div id="welcomeScene" class="marker size2"></div>
-  <div id="bedroomScene" class="marker size2"></div> 
-	<div id="productPage1" class="marker size1"></div>
-	<div id="productPage2" class="marker size1"></div>
-	<div id="productPage3" class="marker size1"></div>
-	<div id="presentation-mark" class="marker size1"></div>
-	<div id="mutfak" class="marker size1" ></div>
-	<div id="anim5" class="marker size1"></div>
-	<div id="features-footer-mark" class="marker size1"></div>
+	<div id="welcomeScene" class="marker size1"></div>
+	<div id="space" class="marker size2"></div>
+  <div id="bedroomScene1" class="marker size3"></div> 
+  <div id="bedroomScene2" class="marker size3"></div> 
+	<div id="productPage1" class="marker size3"></div>
+	<div id="productPage2" class="marker size3"></div>
+	<div id="productPage3" class="marker size3"></div>
+	<div id="presentation-mark" class="marker size3"></div>
+	<div id="mutfak" class="marker size3" ></div>
+	<div id="anim5" class="marker size2"></div>
+	<div id="features-footer-mark" class="marker size2"></div>
 	<div id="end-dummy-filler" class="marker"></div>
 
 </div>
@@ -218,12 +222,12 @@
 
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-<script src='https://scrollmagic.io/assets/js/lib/greensock/plugins/ScrollToPlugin.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TimelineMax.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js'></script>
 <script  src="./script.js"></script>
 <script  src="./redirections.js"></script>
 <script  src="./menu.js"></script>

@@ -21,7 +21,7 @@
     letter-spacing: 0.8px;
     word-spacing: 2px;
     text-align: center;
-    text-shadow: 2px 2px 1px #111111;
+    /* text-shadow: 2px 2px 1px #111111; */
   }
 
   .sloganText {
@@ -31,6 +31,6 @@
     word-spacing: 2px;
     font-size: 26px;
     text-align: center;
-    text-shadow: 2px 2px 1px #111111;
+    /* text-shadow: 2px 2px 1px #111111; */
   }
  

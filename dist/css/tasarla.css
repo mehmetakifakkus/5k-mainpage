@@ -9,7 +9,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 4vh 10vw;
+    margin: 4vh 8vw;
+    justify-content: space-evenly;
 }
 
 .imageContainer{
@@ -28,7 +29,7 @@ body{
 }
 
 img{
-    width: 33vw;
+    width: 30vw;
     height: auto;
 
     /* border-radius: 1vw; */
@@ -46,11 +47,11 @@ img:hover{
 
 .imageContainer > label{
     opacity: .0;
-    font-size: 2.5vw;
+    font-size: 2vw;
     z-index: 1;
 
     color: white;
-    background-color: #a96d3a;
+    background-color: #424242;
     
     padding: 0 4vw;
     margin-top: -1.4vw;

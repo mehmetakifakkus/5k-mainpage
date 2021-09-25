@@ -80,9 +80,9 @@ body {
   width: 100%;
   color: rgb(31, 29, 29);
   display: none;
-  bottom: -16px;
+  bottom: -1.3em;
   z-index: 1;
-  padding: 4px 10px;
+  padding: .7em 10px;
   
   /* font-weight: 500; */
   /* -webkit-text-stroke-width: 0.3px; */

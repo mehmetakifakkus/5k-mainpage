@@ -1,9 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/0d78b12d6be09203d1fbeb76871a369a?family=Century+Gothic);
 
 .image {
+  object-fit: cover;
   width: 100vw;
-  background-position: center;
-  background-size: cover;
+  height: 100vh;
 }
 
 .product-image {
@@ -12,19 +12,16 @@
   /*   background-size: cover; */
 }
 
+#video{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
 .bg-image {
   width: 100vw;
 }
 
-aaa {
-  background-color: #330000;
-}
-
-.zone-80 {
-  position: absolute;
-  width: 100%;
-  min-height: 120%;
-}
 #holder {
   position: fixed;
   top: 0px;
@@ -84,34 +81,34 @@ aaa {
 .marker {
   width: 10px;
   min-height: 380px;
-  background: #330000;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
+  /* background: #330000; */
+  /* border-style: solid; */
+  /* border-color: #ffffff; */
+  /* border-width: 3px; */
   z-index: 9999;
 }
 .size0 {
   width: 10px;
   min-height: 300px;
-  border-width: 3px;
+  /* border-width: 3px; */
   z-index: 9999;
 }
 .size1 {
   width: 10px;
   min-height: 800px;
-  border-width: 3px;
+  /* border-width: 3px; */
   z-index: 9999;
 }
 .size2 {
   width: 10px;
   min-height: 1200px;
-  border-width: 3px;
+  /* border-width: 3px; */
   z-index: 9999;
 }
-.size2 {
+.size3 {
   width: 10px;
-  min-height: 1600px;
-  border-width: 3px;
+  min-height: 2000px;
+  /* border-width: 3px; */
   z-index: 9999;
 }
 
@@ -124,10 +121,12 @@ div.centered {
 body {
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
+  scroll-behavior: smooth;
 }
 
-h1 {
+h1.content {
   color: rgb(46, 46, 46);
+  font-size:4vw;
 }
 
 h1.category {
@@ -178,4 +177,46 @@ a:hover {
 
 .bringToFront {
   z-index: 99999;
+}
+
+
+@media screen and (max-width: 2600px) {
+  #features-footer > iframe{
+    min-width: 100vw;
+    min-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  #features-footer > iframe{
+    min-width: 100vw;
+    min-height: 106vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #features-footer > iframe{
+    min-width: 100vw;
+    min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #features-footer > iframe{
+    min-width: 95vw;
+    min-height: 80vh;
+  }
+}
+
+#presentation-content{
+  transform: translate(0%, 100%);
+}
+
+#presentation-group{
+  transform: translate(0%, 100%);
+}
+
+#mutfak-group{
+  transform: translate(0%, 100%);
+  z-index: -1;
 }
