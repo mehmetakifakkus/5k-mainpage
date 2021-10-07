@@ -30,7 +30,7 @@ dummyScene
   .set('.product-group-3', {y: '120vh'})
 
 
-  new ScrollMagic.Scene({triggerElement: '#start', triggerHook: 0})
+  new ScrollMagic.Scene({triggerElement: '#start', triggerHook: 0, duration: 100})
   .addTo(controller);
 
 var welcome = new TimelineMax();

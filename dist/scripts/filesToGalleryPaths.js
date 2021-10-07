@@ -14,7 +14,7 @@ const readOneLeaf = async (pth) => {
     let files = await readdir(pth);
     if(files.length == 0) return ''; 
 
-    // select the first directory, then its 350x350 subfolder since ot contains thumbnails
+    // select the first directory, then its 350x350 subfolder since it contains thumbnails
     const dir = join(pth, files[0], '350x350'); // pth + Artdeco/350x350
 
     files = await readdir(dir);
@@ -39,6 +39,40 @@ const readAllLeaves = async (pth) => {
     return alldirs.flat();
 }
 
+const read350x800 = async (pth) => {
+
+    // read all directories
+    let files = await readdir(pth);
+    if(files.length == 0) return ''; 
+
+    // select the first directory, then its 350x350 subfolder since ot contains thumbnails
+    const dir = join(pth, files[0], '350x800'); // pth + Artdeco/350x350
+    files = await readdir(dir);
+    
+    const leafFile = relative('..', join(dir, files[0]));
+    return leafFile;
+}
+
+const read1920x1080 = async (pth) => {
+
+    // read all directories
+    let files = await readdir(pth);
+    if(files.length == 0) return ''; 
+
+    // select the first directory, then its 350x350 subfolder since ot contains thumbnails
+    const dir = join(pth, files[0], '1920x1080'); // pth + Artdeco/350x350
+    files = await readdir(dir);
+    
+    console.log(files[0])
+    if(files[0] == undefined)
+    {
+        return 'assets/DEKORLAR/LAMIART/Artdeco Collection/Artdeco/1920x1080/lamiart__rdp_artdeco_01.jpg'
+    }
+
+    const leafFile = relative('..', join(dir, files[0]));
+    return leafFile;
+}
+
 const readFolder = async (pth) => {
     let files = await readdir(pth);
     // console.log(files)
@@ -48,9 +82,13 @@ const readFolder = async (pth) => {
         const collections = await readdir(filePath);
         
         const paths = await Promise.all(collections.map( async (name) =>{
-            const leaf = await readOneLeaf(join(filePath, name));
-            const others = await readAllLeaves(join(filePath, name));
-            return {name, thumbnailPath: leaf, otherPaths: others};
+            const newPath = join(filePath, name);
+            const leaf = await readOneLeaf(newPath);
+            const collection = await readAllLeaves(newPath);
+            const bgImage = await read1920x1080(newPath);
+            const image = await read350x800(newPath);
+
+            return {name, thumbnailPath: leaf, collection, image, bgImage};
         }));
 
         return {name, paths}
@@ -64,10 +102,14 @@ readFolder(pth).then(res => {
     let jsonFile = join('..', 'assets', 'data') + ".json";
     fs.writeFileSync(`${jsonFile}`, JSON.stringify(res));
 })
+read1920x1080('../assets/DEKORLAR/LAMIART/Artdeco Collection').then(it => {
+    console.log('hey', it)
+})
 
 readOneLeaf('../assets/DEKORLAR/LAMIART/Artdeco Collection').then(it => {
     console.log('hey', it)
 })
+
 
 readAllLeaves('../assets/DEKORLAR/LAMIART/LA Collection').then(it =>{
     console.log(it)

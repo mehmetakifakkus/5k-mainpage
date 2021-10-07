@@ -1,31 +1,16 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Century Gothic, sans-serif !important;
-  color: #585858;
-  margin-top:100px;
-}
-
 #myFooter {
-  background-color: #494949;
+  background-color: #dbdbdb;
   padding-top: 0.5vw;
   height: auto;
   width: 100vw;
+  z-index: 1000;
+  position: absolute;
+  bottom: -180vh;
 }
 
 #myFooter .footer-copyright {
-  background-color: #3c3c3c;
-  padding: 2px 0;
-  margin-top: 50px;
+  background-color: #585858;
+  padding: 1px 0;
   text-align: center;
 }
 
@@ -36,7 +21,7 @@ body {
 #myFooter .footer-copyright a {
   margin: 0;
   color: #ccc;
-  font-size: 10px;
+  font-size: 0.75vw;
   text-decoration: none;
 }
 
@@ -47,23 +32,16 @@ body {
 }
 
 #myFooter h5 {
-  color: #c5c5c5;
+  color: #585858;
   font-weight: bold;
-  font-size: 18px;
-  margin: 28px 0px 16px 0px;
-
+  font-size: 20px;
+  margin: 25px 0;
 }
 
 #myFooter li a {
-  color: #c5c5c5;
-  font-size: 13px;
+  color: #585858;
+  font-size: 15px;
   text-decoration: none;
-}
-
-#myFooter p {
-  color: #c5c5c5;
-  font-size: 12px;
-  /* text-decoration: none; */
 }
 
 #myFooter a:hover,
@@ -76,26 +54,24 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 16px;
-  margin-left: 2vw;
-  margin-right: 7vw;
 }
 
 #myFooter .social-networks > p {
-  color: #dadada;
+  color: #222222;
+  font-size: 15px;
   font-weight: bold;
 }
 
 #social-icons-div {
-  transform: scale(1.4);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0 5vw;
   margin-bottom: 2vw;
 }
 
 #social-icons-div > a {
-  color: #dfdddb;
+  color: #aa8862;
   display: block;
   width: 1.5vw;
   height: 1.5vw;
@@ -103,33 +79,24 @@ body {
   background-size: cover;
 }
 
-.home {
-  margin-right: 4vw;
-}
-
-.collections {
-  margin-right: 3vw;
-}
-
 #instagram {
-  background-image: url("./assets/instagram.svg");
-  color:#c5c5c5;
+  background-image: url("../public/icons/social/instagram.svg");
 }
 
 #facebook {
-  background-image: url("./assets/facebook.svg");
+  background-image: url("../public/icons/social/facebook.svg");
 }
 
 #pinterest {
-  background-image: url("./assets/pinterest.svg");
+  background-image: url("../public/icons/social/pinterest.svg");
 }
 
 #linkedin {
-  background-image: url("./assets/linkedin.svg");
+  background-image: url("../public/icons/social/linkedin.svg");
 }
 
 #social-icons-div > a:hover {
-  transform: scale(1.4);
+  transform: scale(2);
   transition: ease 0.2s;
 }
 

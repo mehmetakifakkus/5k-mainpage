@@ -6,10 +6,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./css/gallery.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
+<script  src="scripts/redirections.js"></script>
 </head>
 <body>
-<!-- partial:index.partial.html -->
+<!-- <base target = '_parent'> -->
 
 <div class="container">
   <div class="gallery cf">
@@ -45,24 +45,12 @@
 
       filtered.paths.forEach(data => {
         if (data.thumbnailPath != "")
-          imagesDiv.innerHTML += `<div>
-                                    <a href="">
-                                    <img src="${data.thumbnailPath}" />
+          imagesDiv.innerHTML += `<div onclick="redirectProduct('${data.name}', '${objList.type}')" >
+                                    <img src="${data.thumbnailPath}"/>
                                     <p>${data.name}</p>
-                                    </a>
                                   </div>`
       });
     })
-  }
-
-  const redirectMainPage = (page)=>{
-    const objList = url2obj(window.location.search);
-
-    if(objList.page == "productPage1")
-      // window.location = "index.html?#anim3" //+ objList.page;
-      window.location = "index.html" //+ objList.page;
-    else if(objList.page == "productPage2")
-      window.location = "index.html" //+ objList.page;
   }
 
   fetchTitle();

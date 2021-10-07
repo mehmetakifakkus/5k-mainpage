@@ -1,65 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - footer-component</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
-<link rel='stylesheet' href='https://formden.com/static/cdn/bootstrap-iso.css'><link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Footer</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<footer id="myFooter" class="bootstrap-iso" style="background: rgb(243,243,242);">
-  <div class="container-fluid">
-    <div class="row footer-copyright" style="background: #aa8862;margin: 0px;">
-      <div class="col">
-        <p></p>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-md-3 social-networks">
-        <div class="d-flex justify-content-evenly" id="social-icons-div">
-          <a class="facebook" href="#"><i class="fab fa-instagram"></i></a>
-          <a class="twitter" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="google" href="#"><i class="fab fa-pinterest-p"></i></a>
-          <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+    <base target="_parent">
+    <footer id="myFooter" class="bootstrap-iso">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 social-networks">
+                    <div id="social-icons-div">
+                        <a id="instagram" href="https://www.instagram.com/5ksurfacetechnologies/" target="_blank"></a>
+                        <a id="facebook" href="https://www.facebook.com/5ksurfacetechnologies" target="_blank"></a>
+                        <a id="pinterest" href="https://tr.pinterest.com/5ksurface/" target="_blank"></a>
+                        <a id="linkedin" href="https://tr.linkedin.com/company/5k-surface-technologies" target="_blank"></a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 text-left">
+                            <p>
+                                Güzelhisar Mah. Yıldırım Beyazıt Cad. No: 9 <br>
+                                Akyurt / ANKARA
+                            </p >
+                        </div>
+                        <div class="col-md-6 col-sm-6 text-right">
+                            <p>
+                                info@5k.com.tr   <br>
+                                +90 312 847 55 84
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-sm-12 col-md-1"></div> -->
+                <div class="col-12 col-sm-12 col-md-1 home">
+                    <h5 id="footer-title">Home</h5>
+                    <ul>
+                        <li><a href="../index.html#start">Home</a></li>
+                        <li><a href="../index.html#productPage2">Products<br></a></li>
+                        <li><a href="http://simulasyon.5k.com.tr/simulasyon/">Simulator<br></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 collections">
+                    <h5 id="footer-title">Collections</h5>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <ul>
+                                <li><a href="../gallery.html?type=Lamistone">LamiStone</a></li>
+                                <li><a href="../gallery.html?type=Lamiart">LamiArt<br></a></li>
+                                <li><a href="../gallery.html?type=Lamiwood">LamiWood<br></a></li>
+                                <li><a href="../gallery.html?type=Lamipan">LamiPan<br></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul>
+                                <li><a href="../gallery.html?type=Lamifloor">LamiFloor<br></a></li>
+                                <li><a href="../gallery.html?type=Lamifeel">LamiFeel<br></a></li>
+                                <li><a href="../gallery.html?type=Lamidesk">LamiDesk<br></a></li>
+                                <li><a href="../gallery.html?type=Lamidoor">LamiDoor<br></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2">
+                    <h5 id="footer-title">About Us</h5>
+                    <ul>
+                        <li><a href="#">Company Profile</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2">
+                    <h5 id="footer-title">Services</h5>
+                    <ul>
+                        <li><a href="../about/index.html">E-catalog</a></li>
+                        <li><a href="#">Virtual Pos</a></li>
+                        <li><a href="#">Contact<br></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-copyright">
+                <div class="col">
+                    <a href="https://www.redpind.com" target="_blank">© Designed by Redpin Designworks</a>
+                </div>
+            </div>
         </div>
-        <p style="color: #222222;font-size: 16px;">
-          Güzelhisar Mah. Yıldırım<br>Beyazıt Cad. No: 9<br>Akyurt / ANKARA<br>   <br>info@5k.com.tr<br>+90 312 847 55 84</p>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3"></div>
-      <div class="col-12 col-sm-6 col-md-2">
-        <h5 style="color: rgb(51,51,51);">Ürünler</h5>
-        <ul>
-          <li><a href="#">Tasarım ve Trendler</a></li>
-          <li><a href="#">Portföy<br></a></li>
-          <li><a href="#">Dekorlar</a></li>
-          <li><a href="#">Prime Collection</a></li>
-          <li><a href="#">Dağıtım</a></li>
-          <li><a href="#">İş Ortakları</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-md-2">
-        <h5 style="color: rgb(51,51,51);">5K Hakkında</h5>
-        <ul>
-          <li><a href="#" style="color: rgb(75,76,77);">Meslekler</a></li>
-          <li><a href="#">Haberler<br></a></li>
-          <li><a href="#">Tarihçe</a></li>
-          <li><a href="#">Felsefe</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-6 col-md-2">
-        <h5 style="color: rgb(51,51,51);">Hizmetler</h5>
-        <ul>
-          <li><a href="#">İndirilenler</a></li>
-          <li><a href="#">İletişim<br></a></li>
-          <li><a href="#">EDI</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- partial -->
-  
+    </footer>
 </body>
 </html>

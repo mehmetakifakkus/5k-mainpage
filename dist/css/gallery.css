@@ -38,9 +38,10 @@ body {
 
   perspective: 240px;
   perspective-origin: left;  
+  cursor: pointer;
 }
 
-.gallery > div > a > img {
+.gallery > div  > img {
   position: relative;
   width: 14vw;
   min-width: 120px;
@@ -74,7 +75,7 @@ body {
   20% {    transform: rotateY(360deg);}
 }
 
-.gallery > div > a > p {
+.gallery > div  > p {
   font-size: 1.2em;
   position: absolute; 
   width: 100%;
@@ -100,7 +101,7 @@ body {
      1px 1px rgb(34, 34, 34); */
 }
 
-.gallery > div:hover > a > img {
+.gallery > div:hover > img {
   transform: scale(1.2, 1.2);
   transition: .3s transform;
   /* transform-origin: 50% 100%; */
@@ -114,7 +115,7 @@ body {
   50% {transform: rotate3d(0, 1, 0, 0deg);}
 }
 
-.gallery > div:hover > a > img+p {
+.gallery > div:hover  > img+p {
   display: block;
   z-index: 100;
   

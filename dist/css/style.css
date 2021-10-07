@@ -49,7 +49,7 @@
 
 .product {
   /* position: fixed; */
-  position: absolute;
+  position: fixed;
   top: 0px;
   z-index: 10;
   display: flex;
@@ -108,6 +108,13 @@
 .size3 {
   width: 10px;
   min-height: 2000px;
+  /* border-width: 3px; */
+  z-index: 9999;
+}
+
+.size4 {
+  width: 10px;
+  min-height: 2600px;
   /* border-width: 3px; */
   z-index: 9999;
 }
