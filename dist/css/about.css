@@ -1,0 +1,26 @@
+section {
+    margin: 5vw auto;
+    margin-bottom: 2vw;
+    width: 80vw;
+    height: auto;
+}
+
+section > h4 {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+section > p {
+    text-align: justify;
+    font-size: 1vw;
+}
+
+iframe{
+    margin-top: 50px;
+    min-width: 100vw; 
+    min-height: 274px;
+    position: fixed;
+    bottom: 0px;
+}
