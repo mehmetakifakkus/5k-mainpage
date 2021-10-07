@@ -205,9 +205,14 @@ var scrollMagicLoop = function() {
     var dummyScene = new TimelineMax();
 
     dummyScene
-    .set('#myFooter', {x: '0%', y: '250%'})
+    .set('#product-title', {y: '34vh'})
+    .set('#bg-filter', {y: '-63vh'})
+    .set('#bg-img', {y: '-63vh'})
+    .set('#product-container', {y: '100vh'})
+    .set('#myFooter', {y: '100vh'})
 
-    new ScrollMagic.Scene({triggerElement: '#start', triggerHook: 0})
+
+    new ScrollMagic.Scene({triggerElement: '#dummy', triggerHook: 0})
     .addTo(controller);
 
     /* ==================================================================
@@ -216,14 +221,14 @@ var scrollMagicLoop = function() {
   
   var welcome = new TimelineMax();
     welcome
-    .fromTo('#bg-img', 1, {y: '0%'}, {y: '-30%', ease: Linear.easeInOut})
-    .fromTo('#bg-filter', 1, {y: '0%'}, {y: '36%', ease: Linear.easeInOut}, "-=.8")
-    .fromTo('#product-container', 1, {y: '20vh'}, {y: '0vh', ease: Linear.easeInOut})
+    .fromTo('#bg-img', 0.8, {y: '-63vh'}, {y: '-85vh', ease: Linear.easeInOut})
+    .fromTo('#bg-filter', 0.8, {y: '-63vh'}, {y: '-20vh', ease: Linear.easeInOut}, "-=.8")
+    .fromTo('#product-container', 1, {y: '100vh'}, {y: '5vh', ease: Linear.easeInOut},"-=1")
   
     new ScrollMagic.Scene({triggerElement: '#background', triggerHook: hook, duration: 1000})
       .addIndicators({name: "background"}) // add indicators (requires plugin)
       .setTween(welcome) //adds the tween set above
-      .setClassToggle('.nav-bar', "visible")
+    //   .setClassToggle('.nav-bar', "visible")
 
       .addTo(controller);
 
@@ -232,14 +237,40 @@ var scrollMagicLoop = function() {
      ================================================================== */
 
     var card = new TimelineMax();
-    // card
+    card
+    .fromTo('#product-container', 1, {y: '5vh'}, {y: '-110vh', ease: Linear.easeInOut})
+    .fromTo('#bg-img', 0.8, {y: '-85vh'}, {y: '75vh', ease: Linear.easeInOut}, "-=1")
+    .fromTo('#bg-filter', 0.8, {y: '-20vh'}, {y: '75vh', ease: Linear.easeInOut}, "-=.8")
+    
     // .fromTo('#bg-img', 1, {y: '0%'}, {y: '-30%', ease: Linear.easeInOut})
     // .fromTo('#bg-filter', 1, {y: '0%'}, {y: '30%', ease: Linear.easeInOut}, "-=1")
   
-    new ScrollMagic.Scene({triggerElement: '#card', triggerHook: hook, duration: 1000})
+    new ScrollMagic.Scene({triggerElement: '#card', triggerHook: hook, duration: 600})
       .addIndicators({name: "card"}) // add indicators (requires plugin)
       .setTween(card) //adds the tween set above
-      .setClassToggle('.nav-bar', "visible")
+    //   .setClassToggle('.nav-bar', "visible")
+
+      .addTo(controller);
+
+
+      /* ==================================================================
+                          Footer Scene
+     ================================================================== */
+
+    var footer = new TimelineMax();
+    footer
+    .fromTo('#product-container', 1, {y: '-115vh'}, {y: '-200vh', ease: Linear.easeInOut})
+    .fromTo('#bg-img', 0.8, {y: '75vh'}, {y: '0vh', ease: Linear.easeInOut}, "-=1")
+    .fromTo('#bg-filter', 0.8, {y: '75vh'}, {y: '0vh', opacity: 0, ease: Linear.easeInOut}, "-=1")
+    .fromTo('#myFooter', 0.8, {y: '100vh'}, {y: '72.5vh', ease: Linear.easeInOut}, "-=.8")
+
+    // .fromTo('#bg-img', 1, {y: '0%'}, {y: '-30%', ease: Linear.easeInOut})
+    // .fromTo('#bg-filter', 1, {y: '0%'}, {y: '30%', ease: Linear.easeInOut}, "-=1")
+  
+    new ScrollMagic.Scene({triggerElement: '#footer', triggerHook: hook, duration: 600})
+      .addIndicators({name: "footer"}) // add indicators (requires plugin)
+      .setTween(footer) //adds the tween set above
+    //   .setClassToggle('.nav-bar', "visible")
 
       .addTo(controller);
   };
