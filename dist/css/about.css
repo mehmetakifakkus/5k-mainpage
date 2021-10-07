@@ -6,6 +6,7 @@ section {
 }
 
 section > h4 {
+    color: rgb(83, 83, 83);
     font-size: 3vw;
     font-weight: bold;
     text-align: center;

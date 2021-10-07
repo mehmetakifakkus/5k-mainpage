@@ -121,8 +121,8 @@
 
 div.centered {
   margin: auto;
-  left: 25vw;
-  width: 50vw;
+  left: 20vw;
+  width: 60vw;
 }
 
 body {
@@ -157,15 +157,6 @@ h1.category {
 
 h1.category:hover {
   color: rgb(223, 223, 223);
-}
-
-a {
-  text-decoration: none;
-  color: #e3e3e3;
-  transition: color 0.2s ease;
-}
-a:hover {
-  color: tomato;
 }
 
 #welcomeDiv {

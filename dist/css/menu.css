@@ -84,10 +84,84 @@
     position: relative;
     background: #d5d5d5;
   }
+  
   #menu li {
     padding: 10px 0;
     font-size: 22px;
+    font-weight: 600;
   }
   #menuToggle input:checked ~ ul {
     transform: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #dbdbdb;
+    transition: color 0.2s ease;
+  }
+  a:hover {
+    color: tomato;
+  }
+
+
+  #social-icons-div {
+    transform: scale(1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    width: 286px;
+  }
+
+  #social-icons-div > a {
+    color: #dfdddb;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-repeat: round;
+    background-size: cover;
+  }
+
+  #instagram {
+    background-image: url("../assets/icons/social/instagram.svg");
+    color:#c5c5c5;
+  }
+  
+  #facebook {
+    background-image: url("../assets/icons/social/facebook.svg");
+  }
+  
+  #pinterest {
+    background-image: url("../assets/icons/social/pinterest.svg");
+  }
+  
+  #linkedin {
+    background-image: url("../assets/icons/social/linkedin.svg");
+  }
+
+  #title { 
+    margin: 70px 0px;
+    width: auto;
+  }
+
+  .menu-info{
+    position: fixed;
+    bottom: 30px;
+  }
+
+  .menu-address .col-md-6{
+    float: left;
+    font-size: 13px;
+    color: #b0b0b0;
+  }
+
+  .menu-address .text-left {
+    width: 150px;
+    text-align: left;
+    margin-right: 30px;
+  }
+
+  .menu-address .text-right {
+    width: 120px;
+    text-align: right;
   }
