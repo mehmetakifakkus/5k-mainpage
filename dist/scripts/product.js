@@ -10,6 +10,7 @@ const product = {
     ]
 }
 
+fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
         const queries = new URLSearchParams(window.location.search)
