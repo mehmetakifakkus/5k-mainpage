@@ -1,505 +1,895 @@
 [
   {
-    "name": "LAMIART",
+    "name": "LamiArt",
     "paths": [
       {
         "name": "Artdeco",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Artdeco/Artdeco/350x350/lamiart__rdp_artdeco_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Artdeco/Artdeco/350x350/lamiart__rdp_artdeco_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Artdeco/Artdeco/350x350/lamiart__rdp_artdeco_01.jpg"
+          "assets/DEKORLAR/LamiArt/Artdeco/Artdeco/350x350/lamiart__rdp_artdeco_01.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Artdeco/Artdeco/350x800/lamiart__rdp_artdeco_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Artdeco/Artdeco/1920x1080/lamiart__rdp_artdeco_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Artdeco/Artdeco/mockup/lamiart__rdp_artdeco_01.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Artdeco/Artdeco/350x800/lamiart__rdp_artdeco_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Artdeco/Artdeco/1920x1080/lamiart__rdp_artdeco_01.jpg"
       },
       {
         "name": "Feather",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Feather/Feather/350x350/lamiart__rdp_feather_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Feather/Feather/350x350/lamiart__rdp_feather_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Feather/Feather/350x350/lamiart__rdp_feather_01.jpg",
-          "assets/DEKORLAR/LAMIART/Feather/Feather/350x350/lamiart__rdp_feather_02.jpg"
+          "assets/DEKORLAR/LamiArt/Feather/Feather/350x350/lamiart__rdp_feather_01.jpg",
+          "assets/DEKORLAR/LamiArt/Feather/Feather/350x350/lamiart__rdp_feather_02.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Feather/Feather/350x800/lamiart__rdp_feather_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Feather/Feather/1920x1080/lamiart__rdp_feather_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Feather/Feather/mockup/lamiart__rdp_feather_01.jpg",
+          "assets/DEKORLAR/LamiArt/Feather/Feather/mockup/lamiart__rdp_feather_02.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Feather/Feather/350x800/lamiart__rdp_feather_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Feather/Feather/1920x1080/lamiart__rdp_feather_01.jpg"
       },
       {
         "name": "FishScale",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/FishScale/FishScale/350x350/lamiart__rdp_fishscale_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/FishScale/FishScale/350x350/lamiart__rdp_fishscale_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/FishScale/FishScale/350x350/lamiart__rdp_fishscale_01.jpg",
-          "assets/DEKORLAR/LAMIART/FishScale/FishScale/350x350/lamiart__rdp_fishscale_02.jpg",
-          "assets/DEKORLAR/LAMIART/FishScale/FishScale/350x350/lamiart__rdp_fishscale_03.jpg"
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/350x350/lamiart__rdp_fishscale_01.jpg",
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/350x350/lamiart__rdp_fishscale_02.jpg",
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/350x350/lamiart__rdp_fishscale_03.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/FishScale/FishScale/350x800/lamiart__rdp_fishscale_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/FishScale/FishScale/1920x1080/lamiart__rdp_fishscale_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/mockup/lamiart__rdp_fishscale_01.jpg",
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/mockup/lamiart__rdp_fishscale_02.jpg",
+          "assets/DEKORLAR/LamiArt/FishScale/FishScale/mockup/lamiart__rdp_fishscale_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/FishScale/FishScale/350x800/lamiart__rdp_fishscale_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/FishScale/FishScale/1920x1080/lamiart__rdp_fishscale_01.jpg"
       },
       {
         "name": "Joy",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_001.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_001.jpg",
-          "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_002.jpg",
-          "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_003.jpg",
-          "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_004.jpg",
-          "assets/DEKORLAR/LAMIART/Joy/Joy/350x350/lamiart__joy_005.jpg"
+          "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_001.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_002.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_003.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_004.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/350x350/lamiart__joy_005.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Joy/Joy/350x800/lamiart__joy_001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Joy/Joy/1920x1080/lamiart__joy_001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Joy/Joy/mockup/lamiart__joy_001.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/mockup/lamiart__joy_002.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/mockup/lamiart__joy_003.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/mockup/lamiart__joy_004.jpg",
+          "assets/DEKORLAR/LamiArt/Joy/Joy/mockup/lamiart__joy_005.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Joy/Joy/350x800/lamiart__joy_001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Joy/Joy/1920x1080/lamiart__joy_001.jpg"
       },
       {
         "name": "Kid",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_001.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_001.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_002.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_003.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_004.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_005.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_006.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_007.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_008.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_009.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_010.jpg",
-          "assets/DEKORLAR/LAMIART/Kid/Kids/350x350/lamiart__kid_011.jpg"
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_001.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_002.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_003.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_004.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_005.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_006.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_007.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_008.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_009.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_010.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/350x350/lamiart__kid_011.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Kid/Kids/350x800/lamiart__kid_001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Kid/Kids/1920x1080/lamiart__kid_001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_001.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_002.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_003.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_004.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_005.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_006.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_007.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_008.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_009.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_010.jpg",
+          "assets/DEKORLAR/LamiArt/Kid/Kids/mockup/lamiart__kid_011.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Kid/Kids/350x800/lamiart__kid_001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Kid/Kids/1920x1080/lamiart__kid_001.jpg"
       },
       {
         "name": "LA",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8024.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8024.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8024.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8031.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8038.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8054.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8071.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8093.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8094.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8095.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8097.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8098.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8099.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8100.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8101.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8110.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8220.jpg",
-          "assets/DEKORLAR/LAMIART/LA/La/350x350/lamiart__la_8221.jpg"
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8024.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8031.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8038.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8054.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8071.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8093.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8094.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8095.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8097.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8098.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8099.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8100.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8101.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8110.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8220.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/350x350/lamiart__la_8221.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/LA/La/350x800/lamiart__la_8024.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/LA/La/1920x1080/lamiart__la_8024.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8024.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8031.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8038.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8054.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8071.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8093.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8094.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8095.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8097.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8098.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8099.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8100.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8101.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8110.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8220.jpg",
+          "assets/DEKORLAR/LamiArt/LA/La/mockup/lamiart__la_8221.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/LA/La/350x800/lamiart__la_8024.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/LA/La/1920x1080/lamiart__la_8024.jpg"
       },
       {
         "name": "Oxcide",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x350/lamiart__oks_001.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x350/lamiart__oks_001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x350/lamiart__oks_001.jpg",
-          "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x350/lamiart__oks_002.jpg",
-          "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x350/lamiart__oks_003.jpg",
-          "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x350/lamiart__oks_004.jpg"
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x350/lamiart__oks_001.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x350/lamiart__oks_002.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x350/lamiart__oks_003.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x350/lamiart__oks_004.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/350x800/lamiart__oks_001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Oxcide/Oxcide/1920x1080/lamiart__oks_001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/mockup/lamiart__oks_001.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/mockup/lamiart__oks_002.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/mockup/lamiart__oks_003.jpg",
+          "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/mockup/lamiart__oks_004.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/350x800/lamiart__oks_001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Oxcide/Oxcide/1920x1080/lamiart__oks_001.jpg"
       },
       {
         "name": "Peacock",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Peacock/Peacock/350x350/lamiart__rdp_peacock_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Peacock/Peacock/350x350/lamiart__rdp_peacock_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Peacock/Peacock/350x350/lamiart__rdp_peacock_01.jpg",
-          "assets/DEKORLAR/LAMIART/Peacock/Peacock/350x350/lamiart__rdp_peacock_02.jpg"
+          "assets/DEKORLAR/LamiArt/Peacock/Peacock/350x350/lamiart__rdp_peacock_01.jpg",
+          "assets/DEKORLAR/LamiArt/Peacock/Peacock/350x350/lamiart__rdp_peacock_02.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Peacock/Peacock/350x800/lamiart__rdp_peacock_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Peacock/Peacock/1920x1080/lamiart__rdp_peacock_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Peacock/Peacock/mockup/lamiart__rdp_peacock_01.jpg",
+          "assets/DEKORLAR/LamiArt/Peacock/Peacock/mockup/lamiart__rdp_peacock_02.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Peacock/Peacock/350x800/lamiart__rdp_peacock_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Peacock/Peacock/1920x1080/lamiart__rdp_peacock_01.jpg"
       },
       {
         "name": "Rustic",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x350/lamiart__rst 002.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x350/lamiart__rst_001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x350/lamiart__rst 002.jpg",
-          "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x350/lamiart__rst_001.jpg",
-          "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x350/lamiart__rst_003.jpg",
-          "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x350/lamiart__rst_004.jpg"
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x350/lamiart__rst_001.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x350/lamiart__rst_002.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x350/lamiart__rst_003.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x350/lamiart__rst_004.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Rustic/Rustic/350x800/lamiart__rst 002.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Rustic/Rustic/1920x1080/lamiart__rst 002.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/mockup/lamiart__rst 002.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/mockup/lamiart__rst_001.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/mockup/lamiart__rst_003.jpg",
+          "assets/DEKORLAR/LamiArt/Rustic/Rustic/mockup/lamiart__rst_004.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Rustic/Rustic/350x800/lamiart__rst 002.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Rustic/Rustic/1920x1080/lamiart__rst 002.jpg"
       },
       {
         "name": "Textile 01",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001a.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001b.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001c.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001d.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001e.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001f.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x350/lamiart__txt_001g.jpg"
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001a.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001b.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001c.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001d.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001e.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001f.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x350/lamiart__txt_001g.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/350x800/lamiart__txt_001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Textile 01/Textile 01/1920x1080/lamiart__txt_001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001a.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001b.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001c.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001d.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001e.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001f.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/mockup/lamiart__txt_001g.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/350x800/lamiart__txt_001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Textile 01/Textile 01/1920x1080/lamiart__txt_001.jpg"
       },
       {
         "name": "Textile 02",
-        "thumbnailPath": "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002a.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002b.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002c.jpg",
-          "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x350/lamiart__txt_002d.jpg"
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002a.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002b.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002c.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x350/lamiart__txt_002d.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/350x800/lamiart__txt_002.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIART/Textile 02/Textile 02/1920x1080/lamiart__txt_002.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/mockup/lamiart__txt_002.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/mockup/lamiart__txt_002a.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/mockup/lamiart__txt_002b.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/mockup/lamiart__txt_002c.jpg",
+          "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/mockup/lamiart__txt_002d.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/350x800/lamiart__txt_002.jpg",
+        "bgImage": "assets/DEKORLAR/LamiArt/Textile 02/Textile 02/1920x1080/lamiart__txt_002.jpg"
       }
     ]
   },
   {
-    "name": "LAMIDESK",
-    "paths": []
-  },
-  {
-    "name": "LAMIDOOR",
-    "paths": []
-  },
-  {
-    "name": "LAMIFEEL",
-    "paths": [
-      {
-        "name": "Dsn",
-        "thumbnailPath": "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/350x350/lamifeel__dsn001.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/350x350/lamifeel__dsn001.jpg",
-          "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/350x350/lamifeel__dsn003.jpg",
-          "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/350x350/lamifeel__dsn004.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/350x800/lamifeel__dsn001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIFEEL/Dsn/Dsn/1920x1080/lamifeel__dsn001.jpg"
-      },
-      {
-        "name": "Geometry",
-        "thumbnailPath": "assets/DEKORLAR/LAMIFEEL/Geometry/Geometry/350x350/_lamifeel__geo001.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMIFEEL/Geometry/Geometry/350x350/_lamifeel__geo001.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMIFEEL/Geometry/Geometry/350x800/_lamifeel__geo001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIFEEL/Geometry/Geometry/1920x1080/lamifeel__geo001.jpg"
-      }
-    ]
-  },
-  {
-    "name": "LAMIFLOOR",
-    "paths": [
-      {
-        "name": "Macar",
-        "thumbnailPath": "assets/DEKORLAR/LAMIFLOOR/Macar/Macar/350x350/lamifloor__rdp_macar_01.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMIFLOOR/Macar/Macar/350x350/lamifloor__rdp_macar_01.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMIFLOOR/Macar/Macar/350x800/lamifloor__rdp_macar_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIFLOOR/Macar/Macar/1920x1080/lamifloor__rdp_macar_01.jpg"
-      }
-    ]
-  },
-  {
-    "name": "LAMIPAN",
-    "paths": [
-      {
-        "name": "Solid Color",
-        "thumbnailPath": "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5002_siyah.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5002_siyah.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5011_gri.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5058_elvira_bej.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5066_kar_beyaz.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5101_zirkon.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5138_aytasi.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5139_kumtasi.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5149_cappucino.jpg",
-          "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x350/lamipan__5159_lake_gri.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/350x800/lamipan__5002_siyah.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIPAN/Solid Color/Solid/1920x1080/lamipan__5002_sİyah.jpg"
-      },
-      {
-        "name": "Unmetalic",
-        "thumbnailPath": "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5019_metalik_inci.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5019_metalik_inci.jpg",
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5021_metalik_ekru.jpg",
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5093_metalik_col_kumu.jpg",
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5094_metalik_nehir_kumu.jpg",
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5095_metalik_fume.jpg",
-          "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x350/lamipan__5097_metalik_krom.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/350x800/lamipan__5019_metalik_inci.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIPAN/Unmetalic/Unmetalic/1920x1080/lamipan__5019_metalik_inci.jpg"
-      }
-    ]
-  },
-  {
-    "name": "LAMISTONE",
+    "name": "LamiDesk",
     "paths": [
       {
         "name": "Beyoglu",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Beyoglu/Beyoglu/350x350/lamistone__rdp_beyoglu_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiDesk/Beyoglu/Beyoglu/350x350/lamidesk__rdp_desk_beyoglu_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMISTONE/Beyoglu/Beyoglu/350x350/lamistone__rdp_beyoglu_01.jpg"
+          "assets/DEKORLAR/LamiDesk/Beyoglu/Beyoglu/350x350/lamidesk__rdp_desk_beyoglu_01.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Beyoglu/Beyoglu/350x800/lamistone__rdp_beyoglu_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Beyoglu/Beyoglu/1920x1080/lamistone__rdp_beyoglu_01.jpg"
-      },
-      {
-        "name": "Blossom",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/350x350/lamistone__rdp_blossom_01.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/350x350/lamistone__rdp_blossom_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/350x350/lamistone__rdp_blossom_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/350x350/lamistone__rdp_blossom_03.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiDesk/Beyoglu/Beyoglu/mockup/lamidesk__rdp_desk_beyoglu_01.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/350x800/lamistone__rdp_blossom_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Blossom/Blossom/1920x1080/lamistone__rdp_blossom_01.jpg"
+        "image": "assets/DEKORLAR/LamiDesk/Beyoglu/Beyoglu/350x800/lamidesk__rdp_desk_beyoglu_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiDesk/Beyoglu/Beyoglu/1920x1080/lamidesk__rdp_desk_beyoglu_01.jpg"
       },
       {
         "name": "Cihangir",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/350x350/lamidesk__rdp_desk_cihangir_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMISTONE/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_02.jpg"
+          "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/350x350/lamidesk__rdp_desk_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/350x350/lamidesk__rdp_desk_cihangir_02.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Cihangir/Cihangir/350x800/lamistone__rdp_cihangir_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Cihangir/Cihangir/1920x1080/lamistone__rdp_cihangir_01.jpg"
-      },
-      {
-        "name": "Concrete",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr001.png",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr001.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr001_a.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr001_b.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr001_c.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr003_6.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr003_7.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr004_1.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr005_2.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr006_1.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr006_4.png",
-          "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x350/lamistone__cnr006_5.png"
+        "slider": [
+          "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/mockup/lamidesk__rdp_desk_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/mockup/lamidesk__rdp_desk_cihangir_02.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/350x800/lamistone__cnr001.png",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Concrete/Concrete/1920x1080/lamistone__cnr001.jpg"
-      },
-      {
-        "name": "Dogaltas",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__agathe.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__agathe.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__asterix.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__colorado.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__dove.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__explosion_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x350/lamistone__explosion_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_001.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_001a.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_002.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_002a.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_002b.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_003.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_003a.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_003b.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_004.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_005.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_006.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_007.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_008.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_009.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_010.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_011.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_012.jpg",
-          "assets/DEKORLAR/LAMISTONE/Dogaltas/Marble/350x350/lamistone__mrb_013.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/350x800/lamistone__agathe.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Dogaltas/Dogal Tas/1920x1080/lamistone__agathe.jpg"
-      },
-      {
-        "name": "Floral",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_01.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_01a.jpg",
-          "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_03.jpg",
-          "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x350/lamistone__rdp_floral_04.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMISTONE/Floral/Floral/350x800/lamistone__rdp_floral_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Floral/Floral/1920x1080/lamistone__rdp_floral_01.jpg"
+        "image": "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/350x800/lamidesk__rdp_desk_cihangir_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiDesk/Cihangir/Cihangir/1920x1080/lamidesk__rdp_desk_cihangir_01.jpg"
       },
       {
         "name": "Galata",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Galata/Galata/350x350/lamistone__rdp_galata_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiDesk/Galata/Galata/350x350/lamidesk__rdp_desk_galata_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMISTONE/Galata/Galata/350x350/lamistone__rdp_galata_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Galata/Galata/350x350/lamistone__rdp_galata_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Galata/Galata/350x350/lamistone__rdp_galata_03.jpg"
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/350x350/lamidesk__rdp_desk_galata_01.jpg",
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/350x350/lamidesk__rdp_desk_galata_02.jpg",
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/350x350/lamidesk__rdp_desk_galata_03.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Galata/Galata/350x800/lamistone__rdp_galata_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Galata/Galata/1920x1080/lamistone__rdp_galata_01.jpg"
-      },
-      {
-        "name": "Premium",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5128_koyukok.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5128_koyukok.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5129_acikkok.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5292_sini.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5296_kudum.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5300_bendir.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5303_gordion.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5657_afyon_marble.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__5672_matello.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__9220_celestine.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__9260_allnite.jpg",
-          "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x350/lamistone__9301_mohite.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/mockup/lamidesk__rdp_desk_galata_01.jpg",
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/mockup/lamidesk__rdp_desk_galata_02.jpg",
+          "assets/DEKORLAR/LamiDesk/Galata/Galata/mockup/lamidesk__rdp_desk_galata_03.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMISTONE/Premium/Premium/350x800/lamistone__5128_koyukok.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Premium/Premium/1920x1080/lamistone__5128_koyukok.jpg"
-      },
-      {
-        "name": "Ripple",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x350/lamistone__rdp_ripple_01.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x350/lamistone__rdp_ripple_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x350/lamistone__rdp_ripple_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x350/lamistone__rdp_ripple_03.jpg",
-          "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x350/lamistone__rdp_ripple_04.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/350x800/lamistone__rdp_ripple_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Ripple/Ripple/1920x1080/lamistone__rdp_ripple_01.jpg"
-      },
-      {
-        "name": "Starfish",
-        "thumbnailPath": "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/350x350/lamistone__rdp_starfish_01.jpg",
-        "collection": [
-          "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/350x350/lamistone__rdp_starfish_01.jpg",
-          "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/350x350/lamistone__rdp_starfish_02.jpg",
-          "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/350x350/lamistone__rdp_starfish_03.jpg"
-        ],
-        "image": "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/350x800/lamistone__rdp_starfish_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMISTONE/Starfish/Starfish/1920x1080/lamistone__rdp_starfish_4_1_1.jpg"
+        "image": "assets/DEKORLAR/LamiDesk/Galata/Galata/350x800/lamidesk__rdp_desk_galata_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiDesk/Galata/Galata/1920x1080/lamidesk__rdp_desk_galata_01.jpg"
       }
     ]
   },
   {
-    "name": "LAMIWOOD",
+    "name": "LamiDoor",
     "paths": [
       {
-        "name": "Braid",
-        "thumbnailPath": "",
-        "collection": "",
-        "image": "",
-        "bgImage": ""
+        "name": "Door",
+        "thumbnailPath": "assets/DEKORLAR/LamiDoor/Door/Door/350x350/lamidoor__rdp_door_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiDoor/Door/Door/350x350/lamidoor__rdp_door_01.jpg",
+          "assets/DEKORLAR/LamiDoor/Door/Door/350x350/lamidoor__rdp_door_02.jpg",
+          "assets/DEKORLAR/LamiDoor/Door/Door/350x350/lamidoor__rdp_door_03.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiDoor/Door/Door/mockup/lamidoor__rdp_door_01.jpg",
+          "assets/DEKORLAR/LamiDoor/Door/Door/mockup/lamidoor__rdp_door_02.jpg",
+          "assets/DEKORLAR/LamiDoor/Door/Door/mockup/lamidoor__rdp_door_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiDoor/Door/Door/350x800/lamidoor__rdp_door_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiDoor/Door/Door/1920x1080/lamidoor__rdp_door_01.jpg"
+      }
+    ]
+  },
+  {
+    "name": "LamiFeel",
+    "paths": [
+      {
+        "name": "Dsn",
+        "thumbnailPath": "assets/DEKORLAR/LamiFeel/Dsn/Dsn/350x350/lamifeel__dsn001.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/350x350/lamifeel__dsn001.jpg",
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/350x350/lamifeel__dsn003.jpg",
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/350x350/lamifeel__dsn004.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/mockup/lamifeel__dsn001.jpg",
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/mockup/lamifeel__dsn003.jpg",
+          "assets/DEKORLAR/LamiFeel/Dsn/Dsn/mockup/lamifeel__dsn004.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFeel/Dsn/Dsn/350x800/lamifeel__dsn001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFeel/Dsn/Dsn/1920x1080/lamifeel__dsn001.jpg"
       },
       {
-        "name": "Marquetry",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_001.jpg",
+        "name": "Geometry",
+        "thumbnailPath": "assets/DEKORLAR/LamiFeel/Geometry/Geometry/350x350/_lamifeel__geo001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_001.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_002.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_003.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_004.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_005.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_006.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x350/lamiwood__mrq_007.jpg"
+          "assets/DEKORLAR/LamiFeel/Geometry/Geometry/350x350/_lamifeel__geo001.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/350x800/lamiwood__mrq_001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/Marquetry/Marquetry/1920x1080/lamiwood__mrq_001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiFeel/Geometry/Geometry/mockup/lamifeel__geo001.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFeel/Geometry/Geometry/350x800/lamifeel__geo001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFeel/Geometry/Geometry/1920x1080/lamifeel__geo001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "LamiFloor",
+    "paths": [
+      {
+        "name": "Beyoglu",
+        "thumbnailPath": "assets/DEKORLAR/LamiFloor/Beyoglu/Beyoglu/350x350/lamifloor__rdp_beyoglu_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiFloor/Beyoglu/Beyoglu/350x350/lamifloor__rdp_beyoglu_01.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiFloor/Beyoglu/Beyoglu/mockup/lamifloor__rdp_beyoglu_01.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFloor/Beyoglu/Beyoglu/350x800/lamifloor__rdp_beyoglu_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFloor/Beyoglu/Beyoglu/1920x1080/lamistone__rdp_beyoglu_01.jpg"
+      },
+      {
+        "name": "Cihangir",
+        "thumbnailPath": "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/350x350/lamifloor__rdp_cihangir_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/350x350/lamifloor__rdp_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_02.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/mockup/lamifloor__rdp_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/mockup/lamifloor__rdp_cihangir_02.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/350x800/lamifloor__rdp_cihangir_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFloor/Cihangir/Cihangir/1920x1080/lamistone__rdp_cihangir_01.jpg"
+      },
+      {
+        "name": "Galata",
+        "thumbnailPath": "assets/DEKORLAR/LamiFloor/Galata/Galata/350x350/lamifloor__rdp_galata_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/350x350/lamifloor__rdp_galata_01.jpg",
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/350x350/lamistone__rdp_galata_02.jpg",
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/350x350/lamistone__rdp_galata_03.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/mockup/lamifloor__rdp_galata_01.jpg",
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/mockup/lamifloor__rdp_galata_02.jpg",
+          "assets/DEKORLAR/LamiFloor/Galata/Galata/mockup/lamifloor__rdp_galata_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFloor/Galata/Galata/350x800/lamifloor__rdp_galata_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFloor/Galata/Galata/1920x1080/lamistone__rdp_galata_01.jpg"
+      },
+      {
+        "name": "Macar",
+        "thumbnailPath": "assets/DEKORLAR/LamiFloor/Macar/Macar/350x350/lamifloor__rdp_macar_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiFloor/Macar/Macar/350x350/lamifloor__rdp_macar_01.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiFloor/Macar/Macar/mockup/lamifloor__rdp_macar_01.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiFloor/Macar/Macar/350x800/lamifloor__rdp_macar_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiFloor/Macar/Macar/1920x1080/lamifloor__rdp_macar_01.jpg"
+      }
+    ]
+  },
+  {
+    "name": "LamiPan",
+    "paths": [
+      {
+        "name": "Solid Color",
+        "thumbnailPath": "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5002_siyah.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5002_siyah.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5011_gri.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5058_elvira_bej.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5066_kar_beyaz.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5101_zirkon.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5138_aytasi.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5139_kumtasi.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5149_cappucino.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x350/lamipan__5159_lake_gri.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5002_siyah.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5011_gri.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5058_elvira_bej.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5066_kar_beyaz.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5101_zirkon.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5138_aytasi.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5139_kumtasi.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5149_cappucino.jpg",
+          "assets/DEKORLAR/LamiPan/Solid Color/Solid/mockup/lamipan__5159_lake_gri.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiPan/Solid Color/Solid/350x800/lamipan__5002_siyah.jpg",
+        "bgImage": "assets/DEKORLAR/LamiPan/Solid Color/Solid/1920x1080/lamipan__5002_sİyah.jpg"
+      },
+      {
+        "name": "Unmetalic Color",
+        "thumbnailPath": "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5019_metalik_inci.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5019_metalik_inci.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5021_metalik_ekru.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5093_metalik_col_kumu.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5094_metalik_nehir_kumu.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5095_metalik_fume.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x350/lamipan__5097_metalik_krom.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5019_metalik_inci.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5021_metalik_ekru.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5093_metalik_col_kumu.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5094_metalik_nehir_kumu.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5095_metalik_fume.jpg",
+          "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/mockup/lamipan__5097_metalik_krom.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/350x800/lamipan__5019_metalik_inci.jpg",
+        "bgImage": "assets/DEKORLAR/LamiPan/Unmetalic Color/Unmetalic/1920x1080/lamipan__5019_metalik_inci.jpg"
+      }
+    ]
+  },
+  {
+    "name": "LamiStone",
+    "paths": [
+      {
+        "name": "Beyoglu",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Beyoglu/Beyoglu/350x350/lamistone__rdp_beyoglu_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Beyoglu/Beyoglu/350x350/lamistone__rdp_beyoglu_01.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Beyoglu/Beyoglu/mockup/lamistone__rdp_beyoglu_01.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Beyoglu/Beyoglu/350x800/lamistone__rdp_beyoglu_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Beyoglu/Beyoglu/1920x1080/lamistone__rdp_beyoglu_01.jpg"
+      },
+      {
+        "name": "Blossom",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Blossom/Blossom/350x350/lamistone__rdp_blossom_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/350x350/lamistone__rdp_blossom_01.jpg",
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/350x350/lamistone__rdp_blossom_02.jpg",
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/350x350/lamistone__rdp_blossom_03.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/mockup/lamistone__rdp_blossom_01.jpg",
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/mockup/lamistone__rdp_blossom_02.jpg",
+          "assets/DEKORLAR/LamiStone/Blossom/Blossom/mockup/lamistone__rdp_blossom_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Blossom/Blossom/350x800/lamistone__rdp_blossom_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Blossom/Blossom/1920x1080/lamistone__rdp_blossom_01.jpg"
+      },
+      {
+        "name": "Cihangir",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/350x350/lamistone__rdp_cihangir_02.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/mockup/lamistone__rdp_cihangir_01.jpg",
+          "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/mockup/lamistone__rdp_cihangir_02.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/350x800/lamistone__rdp_cihangir_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Cihangir/Cihangir/1920x1080/lamistone__rdp_cihangir_01.jpg"
+      },
+      {
+        "name": "Concrete",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr001.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr001.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr001_a.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr001_b.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr001_c.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr003_6.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr003_7.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr004_1.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr005_2.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr006_1.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr006_4.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x350/lamistone__cnr006_5.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr001.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr001_a.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr001_b.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr001_c.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr003_6.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr003_7.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr004_1.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr005_2.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr006_1.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr006_4.jpg",
+          "assets/DEKORLAR/LamiStone/Concrete/Concrete/mockup/lamistone__cnr006_5.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Concrete/Concrete/350x800/lamistone__cnr001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Concrete/Concrete/1920x1080/lamistone__cnr001.jpg"
+      },
+      {
+        "name": "Dogaltas",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__agathe.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__agathe.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__asterix.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__colorado.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__dove.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__explosion_01.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x350/lamistone__explosion_02.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_001.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_001a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_002.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_002a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_002b.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_003.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_003a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_003b.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_004.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_005.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_006.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_007.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_008.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_009.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_010.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_011.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_012.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/350x350/lamistone__mrb_013.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__agathe.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__asterix.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__colorado.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__dove.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__explosion_01.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/mockup/lamistone__explosion_02.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_001.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_001a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_002.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_002a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_002b.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_003.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_003a.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_003b.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_004.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_005.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_006.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_007.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_008.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_009.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_010.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_011.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_012.jpg",
+          "assets/DEKORLAR/LamiStone/Dogaltas/Marble/mockup/lamistone__mrb_013.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/350x800/lamistone__agathe.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Dogaltas/Dogal Tas/1920x1080/lamistone__agathe.jpg"
+      },
+      {
+        "name": "Floral",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_01.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_01a.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_02.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_03.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/350x350/lamistone__rdp_floral_04.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Floral/Floral/mockup/lamistone__rdp_floral_01.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/mockup/lamistone__rdp_floral_01a.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/mockup/lamistone__rdp_floral_02.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/mockup/lamistone__rdp_floral_03.jpg",
+          "assets/DEKORLAR/LamiStone/Floral/Floral/mockup/lamistone__rdp_floral_04.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Floral/Floral/350x800/lamistone__rdp_floral_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Floral/Floral/1920x1080/lamistone__rdp_floral_01.jpg"
+      },
+      {
+        "name": "Galata",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Galata/Galata/350x350/lamistone__rdp_galata_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Galata/Galata/350x350/lamistone__rdp_galata_01.jpg",
+          "assets/DEKORLAR/LamiStone/Galata/Galata/350x350/lamistone__rdp_galata_02.jpg",
+          "assets/DEKORLAR/LamiStone/Galata/Galata/350x350/lamistone__rdp_galata_03.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Galata/Galata/mockup/lamistone__rdp_galata_01.jpg",
+          "assets/DEKORLAR/LamiStone/Galata/Galata/mockup/lamistone__rdp_galata_02.jpg",
+          "assets/DEKORLAR/LamiStone/Galata/Galata/mockup/lamistone__rdp_galata_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Galata/Galata/350x800/lamistone__rdp_galata_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Galata/Galata/1920x1080/lamistone__rdp_galata_01.jpg"
+      },
+      {
+        "name": "Premium",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5128_koyukok.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5128_koyukok.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5129_acikkok.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5292_sini.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5296_kudum.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5300_bendir.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5303_gordion.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5657_afyon_marble.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__5672_matello.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__9220_celestine.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__9260_allnite.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/350x350/lamistone__9301_mohite.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5128_koyukok.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5129_acikkok.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5292_sini.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5296_kudum.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5300_bendir.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5303_gordion.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5657_afyon_marble.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__5672_matello.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__9220_celestine.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__9260_allnite.jpg",
+          "assets/DEKORLAR/LamiStone/Premium/Premium/mockup/lamistone__9301_mohite.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Premium/Premium/350x800/lamistone__5128_koyukok.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Premium/Premium/1920x1080/lamistone__5128_koyukok.jpg"
+      },
+      {
+        "name": "Ripple",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x350/lamistone__rdp_ripple_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x350/lamistone__rdp_ripple_01.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x350/lamistone__rdp_ripple_02.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x350/lamistone__rdp_ripple_03.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x350/lamistone__rdp_ripple_04.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/mockup/lamistone__rdp_ripple_01.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/mockup/lamistone__rdp_ripple_02.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/mockup/lamistone__rdp_ripple_03.jpg",
+          "assets/DEKORLAR/LamiStone/Ripple/Ripple/mockup/lamistone__rdp_ripple_04.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Ripple/Ripple/350x800/lamistone__rdp_ripple_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Ripple/Ripple/1920x1080/lamistone__rdp_ripple_01.jpg"
+      },
+      {
+        "name": "Starfish",
+        "thumbnailPath": "assets/DEKORLAR/LamiStone/Starfish/Starfish/350x350/lamistone__rdp_starfish_01.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/350x350/lamistone__rdp_starfish_01.jpg",
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/350x350/lamistone__rdp_starfish_02.jpg",
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/350x350/lamistone__rdp_starfish_03.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/mockup/lamistone__rdp_starfish_01.jpg",
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/mockup/lamistone__rdp_starfish_02.jpg",
+          "assets/DEKORLAR/LamiStone/Starfish/Starfish/mockup/lamistone__rdp_starfish_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiStone/Starfish/Starfish/350x800/lamistone__rdp_starfish_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiStone/Starfish/Starfish/1920x1080/lamistone__rdp_starfish_4_1_1.jpg"
+      }
+    ]
+  },
+  {
+    "name": "LamiWood",
+    "paths": [
+      {
+        "name": "Marquetry",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_001.jpg",
+        "collection": [
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_001.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_002.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_003.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_004.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_005.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_006.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x350/lamiwood__mrq_007.jpg"
+        ],
+        "slider": [
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_001.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_002.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_003.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_004.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_005.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_006.jpg",
+          "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/mockup/lamiwood__mrq_007.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/350x800/lamiwood__mrq_001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/Marquetry/Marquetry/1920x1080/lamiwood__mrq_001.jpg"
       },
       {
         "name": "Nature",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__5166_walnut_choco.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__5166_walnut_choco.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__5166_walnut_choco.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__5298_rebap.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__5301_lidya.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__5307_frig.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__9110_grey_chedar.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__9230_idium.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__9240_ferberite.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__9241_fayalite.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x350/lamiwood__9250_polarite.jpg"
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__5166_walnut_choco.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__5298_rebap.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__5301_lidya.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__5307_frİg.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__9110_grey_chedar.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__9230_idium.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__9240_ferberite.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__9241_fayalite.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/350x350/lamiwood__9250_polarite.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/Nature/Nature/350x800/lamiwood__5166_walnut_choco.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/Nature/Nature/1920x1080/lamiwood__5166_walnut_choco.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__5166_walnut_choco.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__5298_rebap.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__5301_lidya.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__5307_frİg.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__9110_grey_chedar.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__9230_idium.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__9240_ferberite.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__9241_fayalite.jpg",
+          "assets/DEKORLAR/LamiWood/Nature/Nature/mockup/lamiwood__9250_polarite.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/Nature/Nature/350x800/lamiwood__5166_walnut_choco.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/Nature/Nature/1920x1080/lamiwood__5166_walnut_choco.jpg"
       },
       {
         "name": "Renkli Ahsap",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_04.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_04.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_04.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_04.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_04.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_03.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_04.jpg"
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x350/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/350x350/lamiwood__rdp_burgundy_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/350x350/lamiwood__rdp_coral_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/350x350/lamiwood__rdp_green_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/350x350/lamiwood__rdp_monocrome_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/350x350/lamiwood__rdp_purple_04.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/350x800/lamiwood__rdp_blue_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/Renkli Ahsap/Blue/1920x1080/lamiwood__rdp_blue_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_burgundy_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_burgundy_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_burgundy_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Burgundy/mockup/lamiwood__rdp_burgundy_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_coral_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_coral_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_coral_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Coral/mockup/lamiwood__rdp_coral_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_green_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_green_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_green_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Green/mockup/lamiwood__rdp_green_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_monocrome_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_monocrome_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_monocrome_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Monocrome/mockup/lamiwood__rdp_monocrome_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_purple_01.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_purple_02.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_purple_03.jpg",
+          "assets/DEKORLAR/LamiWood/Renkli Ahsap/Purple/mockup/lamiwood__rdp_purple_04.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/350x800/lamiwood__rdp_blue_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/Renkli Ahsap/Blue/1920x1080/lamiwood__rdp_blue_01.jpg"
       },
       {
         "name": "Star",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/Star/Star/350x350/lamiwood__rdp_star_01.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/Star/Star/350x350/lamiwood__rdp_star_01.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/Star/Star/350x350/lamiwood__rdp_star_01.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Star/Star/350x350/lamiwood__rdp_star_02.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Star/Star/350x350/lamiwood__rdp_star_03.jpg"
+          "assets/DEKORLAR/LamiWood/Star/Star/350x350/lamiwood__rdp_star_01.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/350x350/lamiwood__rdp_star_02.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/350x350/lamiwood__rdp_star_03.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/Star/Star/350x800/lamiwood__rdp_star_01.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/Star/Star/1920x1080/lamiwood__rdp_star_01.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_star_01.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_star_02.jpg",
+          "assets/DEKORLAR/LamiWood/Star/Star/mockup/lamiwood__rdp_star_03.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/Star/Star/350x800/lamiwood__rdp_star_01.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/Star/Star/1920x1080/lamiwood__rdp_star_01.jpg"
       },
       {
         "name": "WDF",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/WDF/WDF/350x350/lamiwood__wdf001.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/WDF/WDF/350x350/lamiwood__wdf001.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/WDF/WDF/350x350/lamiwood__wdf001.jpg",
-          "assets/DEKORLAR/LAMIWOOD/WDF/WDF/350x350/lamiwood__wdf002.jpg",
-          "assets/DEKORLAR/LAMIWOOD/WDF/WDF/350x350/lamiwood__wdf003.jpg"
+          "assets/DEKORLAR/LamiWood/WDF/WDF/350x350/lamiwood__wdf001.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/350x350/lamiwood__wdf002.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/350x350/lamiwood__wdf003.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/WDF/WDF/350x800/lamiwood__wdf001.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/WDF/WDF/1920x1080/lamiwood__wdf001.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__rdp_blue_01.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__rdp_blue_02.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__rdp_blue_03.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__rdp_blue_04.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__wdf001.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__wdf002.jpg",
+          "assets/DEKORLAR/LamiWood/WDF/WDF/mockup/lamiwood__wdf003.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/WDF/WDF/350x800/lamiwood__wdf001.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/WDF/WDF/1920x1080/lamiwood__wdf001.jpg"
       },
       {
         "name": "Wooden",
-        "thumbnailPath": "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-1/350x350/lamiwood__wdn001_a.jpg",
+        "thumbnailPath": "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/350x350/lamiwood__wdn001_a.jpg",
         "collection": [
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-1/350x350/lamiwood__wdn001_a.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-1/350x350/lamiwood__wdn001_b.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-2/350x350/lamiwood__wdn002.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-2/350x350/lamiwood__wdn002c.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-3/350x350/lamiwood__wdn006a.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-3/350x350/lamiwood__wdn006b.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-4/350x350/lamiwood__wdn003.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-4/350x350/lamiwood__wdn005.jpg",
-          "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-4/350x350/lamiwood__wdn007.jpg"
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/350x350/lamiwood__wdn001_a.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/350x350/lamiwood__wdn001_b.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-2/350x350/lamiwood__wdn002.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-2/350x350/lamiwood__wdn002c.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-3/350x350/lamiwood__wdn006a.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-3/350x350/lamiwood__wdn006b.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/350x350/lamiwood__wdn003.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/350x350/lamiwood__wdn005.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/350x350/lamiwood__wdn007.jpg"
         ],
-        "image": "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-1/350x800/lamiwood__wdn001_a.jpg",
-        "bgImage": "assets/DEKORLAR/LAMIWOOD/Wooden/Wooden-1/1920x1080/lamiwood__wdn001_a.jpg"
+        "slider": [
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/mockup/lamiwood__wdn001_a.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/mockup/lamiwood__wdn001_b.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-2/mockup/lamiwood__wdn002.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-2/mockup/lamiwood__wdn002c.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-3/mockup/lamiwood__wdn006a.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-3/mockup/lamiwood__wdn006b.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/mockup/lamiwood__wdn003.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/mockup/lamiwood__wdn005.jpg",
+          "assets/DEKORLAR/LamiWood/Wooden/Wooden-4/mockup/lamiwood__wdn007.jpg"
+        ],
+        "image": "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/350x800/lamiwood__wdn001_a.jpg",
+        "bgImage": "assets/DEKORLAR/LamiWood/Wooden/Wooden-1/1920x1080/lamiwood__wdn001_a.jpg"
       }
     ]
   }

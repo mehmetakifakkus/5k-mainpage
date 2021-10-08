@@ -20,32 +20,27 @@
   <label for="" onclick="redirectMainPage()">Anasayfaya dön</label>
 </div>
 
+<iframe id="myFooter" class = "fixToTop" src="./footer/index.html" frameborder="0" scrolling="no" 
+    style="min-width: 100vw; min-height: 272px;"> 
+</iframe>
+
 </body>
 <script>
   var path;
-  const url2obj = (name)=> {
-      var list = name.slice(1).split("&").map((it)=>{
-        var temp = it.split("=")
-        return {[temp[0]]: temp[1]}
-      });
-      return Object.assign.apply(null, list);
-  }
-
+  
   const fetchTitle = ()=>{
-    const name = window.location.search;
-
-    const objList = url2obj(name);
-    document.querySelector('.title').textContent = objList.type;
+    const collectionName = new URLSearchParams(window.location.search).get('type');
+    document.querySelector('.title').textContent = collectionName;
     
     fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
-      let filtered = data.find(it => it.name == objList.type.toUpperCase());
+      let filtered = data.find(it => it.name == collectionName);
       const imagesDiv = document.querySelector('.gallery');
 
       filtered.paths.forEach(data => {
         if (data.thumbnailPath != "")
-          imagesDiv.innerHTML += `<div onclick="redirectProduct('${data.name}', '${objList.type}')" >
+          imagesDiv.innerHTML += `<div onclick="redirectProduct('${data.name}', '${collectionName}')" >
                                     <img src="${data.thumbnailPath}"/>
                                     <p>${data.name}</p>
                                   </div>`

@@ -39,6 +39,22 @@ const readAllLeaves = async (pth) => {
     return alldirs.flat();
 }
 
+const readSlider = async (pth) => {
+
+    // read all directories
+    let files = await readdir(pth);
+    if(files.length == 0) return ''; 
+
+    // select the first directory, then its 350x350 subfolder since ot contains thumbnails
+    const alldirs = await Promise.all(files.map(async (name)=>{
+        const dir = join(pth, name, 'mockup'); // pth + Artdeco/350x350
+        let files = await readdir(dir);
+        return files.map(it =>relative('..', join(dir, it)));
+    }))
+
+    return alldirs.flat();
+}
+
 const read350x800 = async (pth) => {
 
     // read all directories
@@ -83,12 +99,14 @@ const readFolder = async (pth) => {
         
         const paths = await Promise.all(collections.map( async (name) =>{
             const newPath = join(filePath, name);
+
             const leaf = await readOneLeaf(newPath);
             const collection = await readAllLeaves(newPath);
             const bgImage = await read1920x1080(newPath);
             const image = await read350x800(newPath);
+            const slider = await readSlider(newPath);
 
-            return {name, thumbnailPath: leaf, collection, image, bgImage};
+            return {name, thumbnailPath: leaf, collection, slider, image, bgImage};
         }));
 
         return {name, paths}
@@ -102,15 +120,15 @@ readFolder(pth).then(res => {
     let jsonFile = join('..', 'assets', 'data') + ".json";
     fs.writeFileSync(`${jsonFile}`, JSON.stringify(res));
 })
-read1920x1080('../assets/DEKORLAR/LAMIART/Artdeco Collection').then(it => {
+read1920x1080('../assets/DEKORLAR/LamiArt/Artdeco').then(it => {
     console.log('hey', it)
 })
 
-readOneLeaf('../assets/DEKORLAR/LAMIART/Artdeco Collection').then(it => {
+readOneLeaf('../assets/DEKORLAR/LamiArt/Artdeco').then(it => {
     console.log('hey', it)
 })
 
 
-readAllLeaves('../assets/DEKORLAR/LAMIART/LA Collection').then(it =>{
+readAllLeaves('../assets/DEKORLAR/LamiArt/LA').then(it =>{
     console.log(it)
 });

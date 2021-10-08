@@ -1,8 +1,11 @@
-const sliderImages = [
-    "https://wowslider.com/sliders/demo-93/data1/images/landscape.jpg",
-    "https://wowslider.com/sliders/demo-93/data1/images/sunset.jpg",
-    "https://wowslider.com/sliders/demo-93/data1/images/lake.jpg"
-];
+// const sliderImages = [
+//     "https://wowslider.com/sliders/demo-93/data1/images/landscape.jpg",
+//     "https://wowslider.com/sliders/demo-93/data1/images/sunset.jpg",
+//     "https://wowslider.com/sliders/demo-93/data1/images/lake.jpg"
+// ];
+
+// fillSliderImagesAndDots(sliderImages)
+let slideIndex = 1;
 
 const fillSliderImagesAndDots = (data) => {
     const slider = document.querySelector(".slideshow-container");
@@ -13,19 +16,15 @@ const fillSliderImagesAndDots = (data) => {
     data.forEach((item, index) => {
         elements += `   <div class="mySlides fadein">
                             <img src=${item}>
-                            <div class="text">Title ${index}</div>
+                            <div class="text">#${item.split(/__|\./gm)[1]}</div>
                         </div>`
         dots += `<span class="dot" onclick="currentSlide(${index})"></span>`
     })
     slider.innerHTML = elements + leftRightButtons;
     dotList.innerHTML = dots;
 
+    showSlides(slideIndex);
 }
-
-fillSliderImagesAndDots(sliderImages)
-
-let slideIndex = 1;
-showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);

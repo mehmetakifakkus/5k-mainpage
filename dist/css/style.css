@@ -1,4 +1,36 @@
-@import url(//db.onlinewebfonts.com/c/0d78b12d6be09203d1fbeb76871a369a?family=Century+Gothic);
+/* @import url(//db.onlinewebfonts.com/c/0d78b12d6be09203d1fbeb76871a369a?family=Century+Gothic); */
+
+@font-face {
+  font-family: CenturyGothic;
+  font-weight: bold;
+  font-style: normal;
+  src: url("../assets/fonts/CenturyGothic-Bold.woff");
+  src: url("../assets/fonts/CenturyGothic-Bold.woff2");
+}
+
+@font-face {
+  font-family: CenturyGothic;
+  font-weight: bold;
+  font-style: italic;
+  src: url("../assets/fonts/CenturyGothic-BoldItalic.woff");
+}
+
+@font-face {
+  font-family: CenturyGothic;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/fonts/CenturyGothic-Bold.woff");
+  src: url("../assets/fonts/CenturyGothic-Bold.woff2");
+}
+
+@font-face {
+  font-family: CenturyGothic;
+  font-weight: normal;
+  font-style: italic;
+  src: url("../assets/fonts/CenturyGothic-Italic.woff");
+  src: url("../assets/fonts/CenturyGothic-Italic.woff2");
+}
+
 
 .image {
   object-fit: cover;
@@ -127,7 +159,8 @@ div.centered {
 
 body {
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  /* font-family: "Avenir Next", "Avenir", sans-serif; */
+  font-family: CenturyGothic, sans-serif !important;
   scroll-behavior: smooth;
 }
 
@@ -137,7 +170,8 @@ h1.content {
 }
 
 h1.category {
-  font-family: "Century Gothic";
+  /* font-family: "Century Gothic"; */
+  font-family: CenturyGothic, sans-serif !important;
   margin-top: 20px;
   font-size: 44px;
   letter-spacing: -1px;
