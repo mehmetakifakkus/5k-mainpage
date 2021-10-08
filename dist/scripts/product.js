@@ -1,24 +1,36 @@
-const product = {
-    image: "public/images/peacock-product.jpg",
-    bgImage: "public/images/peacock-bg-img.jpg",
-    collection: [
-        "public/images/peacock-thumbnail-1.jpg",
-        "public/images/peacock-thumbnail-2.jpg"
-    ],
-    slider: [
-        "public/images/peacock-product.jpg"
-    ]
-}
 
 fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
         const queries = new URLSearchParams(window.location.search)
+        const from = queries.get('from');
+        const serie = data.find(it => it.name.toLocaleUpperCase() == queries.get('serie').toLocaleUpperCase());
+        
+        // console.log("queries.serie:", queries.get('serie'));
+        // console.log("serie:", serie);
+        // console.log("from:", from);
+        
+        let product = {};
+        let selectedCollection = "";
 
-        const serie = data.find(it => it.name == queries.get('serie'));
-        const product = serie.paths.find(it => it.name == queries.get('collection_name'));
-        fillTheProductCard(product);
-        fillSliderImagesAndDots(product.slider)
+        if (from === 'simulator') {
+          serie.paths.find(it => {
+            it.collection.forEach(col => {
+              if (col.includes(queries.get('product_id'))) {
+                product = it;
+                selectedCollection = col
+              }
+            })
+          });
+          fillTheProductCard(product);
+          changeProductImages(selectedCollection)
+          fillSliderImagesAndDots(product.slider)
+
+        } else {
+          product = serie.paths.find(it => it.name == queries.get('collection_name'));
+          fillTheProductCard(product);
+          fillSliderImagesAndDots(product.slider)
+        }
     })
 
 function fillTheProductCard(product) {
