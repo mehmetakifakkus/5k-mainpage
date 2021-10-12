@@ -9,14 +9,14 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 4vh 8vw;
+    margin: 4vw 8vw;
     justify-content: space-evenly;
 }
 
 .imageContainer{
     display: flex;
     float: left;
-    margin: 4vh 3vw;
+    margin: 2vw 3vw;
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
     /* clip-path: inset(-1% -1% -1% -1% round 1vw); */
     /* clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 25% 100%, 5% 70%,1% 60%, 0% 50%, 25% 0%); */
@@ -63,7 +63,7 @@ img:hover{
 
 .break {
     flex-basis: 100%;
-    height: 2vh;
+    height: 0px;
   }
 
 
@@ -84,4 +84,17 @@ img:hover{
     font-size: 1.4em;
     color: #454545;
     margin: -0.2em;
+}
+
+
+@media all and (max-width: 600px) {
+    img{
+        width: 70vw;
+    }
+
+    .imageContainer{
+        margin: 2vw 4vw;
+    }
+    
+
 }

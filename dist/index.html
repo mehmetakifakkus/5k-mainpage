@@ -2,11 +2,9 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-
   <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 
   <title>5K</title>
   <link rel="stylesheet" href="./css/style.css">
@@ -92,7 +90,6 @@
   <div  class = "fixToTop" id="welcome" style="z-index:3"
        style="visibility: inherit;">
     <video id="video" playsinline muted autoplay loop playsinline width="100%">
-      <!-- <source src="https://www.lucidmotors.com/static/e4b786f3232a4ec91c3148153386bddf/homepage-hero-bg.mp4"> -->
       <source src="./assets/5K INTRO.mp4">
     </video>
     
@@ -125,57 +122,51 @@
 
 <!-- <div class="flip-panel" id="product-group-1" style="z-index: 2;"> -->
  
-  <div class="product product-group-1" id="product-1" style="transform: translate(15vw)">
+  <div class="product product-group-1" id="product-1">
     <!-- <img class = "product-image" src='https://i.im.ge/2021/08/02/L3oNy.png'> -->
     <iframe src="./flip_panel/LAMISTONE/LAMISTONE.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiStone')">LamiStone</h1>
   </div>
 
-  <div class="product product-group-1" id="product-2" style="transform: translate(42vw)">
+  <div class="product product-group-1" id="product-2">
     <iframe src="./flip_panel/LAMIART/LAMIART.html" frameborder="0" scrolling="no"> </iframe>
     <h1 class="category" onclick="redirectGallery('LamiArt')">LamiArt</h1>    
   </div>
 
-  <div class="product product-group-1" id="product-3" style="transform: translate(70vw)">
+  <div class="product product-group-1" id="product-3">
     <iframe src="./flip_panel/LAMIWOOD/LAMIWOOD.html" frameborder="0" scrolling="no"> </iframe>
     <h1 class="category" onclick="redirectGallery('LamiWood')">LamiWood</h1>
   </div> 
 <!-- </div> -->
 
 <!-- <div class="flip-panel" id="product-group-2" style="z-index: 2;"> -->
-  <div class="product product-group-2" id="product-4" style="transform: translate(15vw)">
+  <div class="product product-group-2" id="product-4">
     <iframe src="./flip_panel/LAMIPAN/LAMIPAN.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiPan')">LamiPan</h1>
   </div>
 
-  <div class="product product-group-2" id="product-5" style="transform: translate(42vw)">
+  <div class="product product-group-2" id="product-5">
     <iframe src="./flip_panel/LAMIFLOOR/LAMIFLOOR.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiFloor')">LamiFloor</h1>
   </div>
   
-  <div class="product product-group-2" id="product-6" style="transform: translate(70vw)">
+  <div class="product product-group-2" id="product-6">
     <iframe src="./flip_panel/LAMIFEEL/LAMIFEEL.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiFeel')">LamiFeel</h1>
   </div>
 <!-- </div> -->
 
 <!-- <div class="flip-panel" id="product-group-3" style="z-index: 2;"> -->
-  <div class="product product-group-3" id="product-7" style="transform: translate(24vw, 120vh)">
+  <div class="product product-group-3" id="product-7">
     <!-- <img class = "product-image" src='https://i.im.ge/2021/08/02/L3oNy.png'> -->
     <iframe src="./flip_panel/LAMIDESK/LAMIDESK.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiDesk')">LamiDesk</h1>
   </div>
 
-  <div class="product product-group-3" id="product-8" style="transform: translate(56vw, 120vh)">
+  <div class="product product-group-3" id="product-8">
     <iframe src="./flip_panel/LAMIDOOR/LAMIDOOR.html" frameborder="0" scrolling="no"></iframe>
     <h1 class="category" onclick="redirectGallery('LamiDoor')">LamiDoor</h1>
   </div>
-<!-- </div> -->
-
-<!-- <div id="presentation-group" class="fixToTop">
-  
-
-</div> -->
 
 <div id="presentation-content" class="fixToTop centered" style="text-align:center;  z-index: 1;">
   <!-- <h1 class = "content"> Mutfaktan yatak odasına, farklı mekanları dekorlarımızla yeniden hayal edin! </h1>  -->
@@ -189,11 +180,11 @@
 
 <div id="mutfak-group" class="fixToTop">
   <div id = "seramik-1" class="fixToTop" style="z-index:-1;">
-     <img class = "" src='assets/mutfak_wall1.jpg'>
+     <img class = "image seramikImage" src='assets/mutfak_wall1.jpg'>
  </div>   
   
   <div id = "seramik-2" class="fixToTop" style="z-index:-1">
-     <img class = "" src='assets/mutfak_wall2.jpg'>
+     <img class = "image seramikImage" src='assets/mutfak_wall2.jpg'>
  </div> 
   <div id="mutfak-background" class="" style="z-index:2">
     <img class="image" src="assets/mutfak_background.png" >
@@ -201,22 +192,16 @@
 </div> 
 
 
-<div id="features-footer" class="fixToTop" >
-  <iframe src="./tasarla.html" frameborder="0" scrolling="no"> 
+<div id="features-footer" class="fixToBottom" >
+  <iframe id = "tasarla" src="./tasarla.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"> 
   </iframe>
 
-  <iframe src="./footer/index.html" frameborder="0" scrolling="no" 
-    style="min-width: 100vw; min-height: 500px;"> 
+  <iframe id = "footer" src="./footer/index.html" frameborder="0" scrolling="no"> 
   </iframe>
 </div>
-
-<div class="scene5">
-
-</div>
- 
 
   </div>
-		</div>
+	</div>
   
   
   <!-- <div id="markers"> -->

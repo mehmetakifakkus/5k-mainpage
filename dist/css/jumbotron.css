@@ -34,3 +34,24 @@
     /* text-shadow: 2px 2px 1px #111111; */
   }
  
+
+  @media screen and (max-width: 1200px) {
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .jumbotron {
+      width: 80%;
+    }
+   
+    .sloganTitle {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  
+    .sloganText {
+      line-height: 40px;
+      font-size: 18px;
+    }
+  }

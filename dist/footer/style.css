@@ -133,10 +133,36 @@ body {
   transition: ease 0.2s;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #myFooter {
     text-align: center;
   }
+
+  #social-icons-div{
+    transform: scale(1);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+  }
+  
+  #social-icons-div a {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  #myFooter .social-networks {
+    margin-left: 0px;
+  }
+
+  #social-icons-div + div{
+    padding: 3vw 6vw;
+  }
+
+  iframe {
+    min-height: 600px;
+  }
+
 }
 
 /* 

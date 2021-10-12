@@ -160,3 +160,30 @@ label{
   right: 10px;
   bottom: 20px;
 }
+
+@media screen and (max-width: 2600px) {
+  #myFooter{
+    min-width: 100vw;
+    min-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  #myFooter{
+    min-width: 100vw;
+    min-height: 106vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #myFooter{
+    min-width: 100vw;
+    min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #myFooter {
+    min-height: 600px;
+  }
+}

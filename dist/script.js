@@ -21,13 +21,14 @@ var scrollMagicLoop = function() {
 var dummyScene = new TimelineMax();
 
 dummyScene
-  .set('#mutfak-group', {x: '0%', y: '250%'})
-  .set('#presentation-content', {x:'0%', y: '100vh', opacity:0})
-  .set('#presentation-background', {x:'0%', y: '100vh', opacity:0})
+  .set('#mutfak-group', {y: '250%'})
+  .set('#presentation-content', {y: '100vh', opacity:0})
+  .set('#presentation-background', {y: '100vh', opacity:0})
 
   .set('.product-group-1', {y: '120vh'})
   .set('.product-group-2', {y: '120vh'})
   .set('.product-group-3', {y: '120vh'})
+  .set('#features-footer', {bottom: '110vh'})
 
 
   new ScrollMagic.Scene({triggerElement: '#start', triggerHook: 0})
@@ -175,8 +176,8 @@ var bedroomPart2 = new TimelineMax();
   .fromTo('#mutfak-group', 1,  {x: '0%', y: '50%', opacity: 0}, {x: '0%', y: '0%', opacity: 1})
   // .fromTo('#mutfak-background', 1,  {x: '0%', y: '100%'}, {x: '0%', y: '0%'}, "-=2")
   .fromTo('#seramik-1', 1, {x: '-100vw', y:'24vh', scale: 0.9}, {x: '-20vw', y:'24vh', scale: 1}, "-=0.4")
-  .fromTo('#seramik-2', 1, {x: '-100vw', y:'24vh', scale: 0.9}, {x: '-20vw', y:'24vh', scale: 1}, "-=0")
-  .fromTo('#features-footer', 0.2, {x: '-0%', y:'110vh', opacity: 0}, {x: '0%', y:'50vh', opacity: 0}, "=-0.1")
+  .fromTo('#seramik-2', 1, {x: '-100vw', y:'24vh', scale: 0.9}, {x: '-20vw', y:'24vh', scale: 1}, "-=0.4")
+  .fromTo('#features-footer', 0.2, {bottom:'-110vh', opacity: 0}, {bottom :'-80vh', opacity: 0}, "=-0.1")
   
   new ScrollMagic.Scene({triggerElement: '#mutfak', triggerHook: hook, duration: 3000})
      .addIndicators({name: 'mutfak'}) // add indicators (requires plugin)
@@ -187,7 +188,7 @@ var bedroomPart2 = new TimelineMax();
   var features = new TimelineMax();
   features
   .fromTo('#mutfak-group', 1, {y: '0%', opacity: 1},  {y: '-100%', opacity: 1})
-  .fromTo('#features-footer', 1, {x: '0%', y:'50vh', opacity: 0}, {x: '0%', y:'5vh', opacity: 1}, "=-0.75")
+  .fromTo('#features-footer', 1, {bottom:'-110vh', opacity: 0.6}, {bottom:'-30vh', opacity: 1}, "=-0.5")
     
    new ScrollMagic.Scene({triggerElement: '#anim5', triggerHook: hook, duration: 1200})
       .addIndicators({name: 'simulation-page'}) // add indicators (requires plugin)
@@ -211,9 +212,9 @@ var bedroomPart2 = new TimelineMax();
   
   var clearScreen2 = new TimelineMax();
   clearScreen2
-  .fromTo('#features-footer', 0.5, { y: '5vh'}, {y: '-40vh', ease: Linear.easeInOut}) 
+  .fromTo('#features-footer', 1, { bottom: '-30vh'}, {bottom: '0vh'}) 
   
-   new ScrollMagic.Scene({triggerElement: '#features-footer-mark', triggerHook: hook, duration: 500})
+   new ScrollMagic.Scene({triggerElement: '#features-footer-mark', triggerHook: hook, duration: 700})
       .addIndicators({name: 'footer-page'}) // add indicators (requires plugin)
       .setTween(clearScreen2) //adds the tween set above
       .addTo(controller);
@@ -268,6 +269,16 @@ document.querySelectorAll("#panel2").forEach((btn, index) => {
     controller.scrollTo('#anim5');    
   });
 });
+
+function resizeIframe(obj) {
+  const el = obj.contentWindow.document.documentElement;
+  console.log(el.getBoundingClientRect());
+  console.log(obj.contentWindow.document.documentElement.scrollHeight)
+  console.log(obj.contentWindow.document.documentElement.offsetHeight + getComputedStyle(el).marginBottom + getComputedStyle(el).marginBottom)
+  console.log(obj.contentWindow.document.documentElement.clientHeight)
+  console.log(obj.contentWindow.document.documentElement)
+  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight * 1 + 'px';
+}
 
 
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
